@@ -1,3 +1,6 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
 /* Colors Variables
 --------------------------------------------------- */
 $xLightBrown: #efe8d5;
@@ -16,73 +19,62 @@ $iconWhiteSpritePath: '';
 /* Imports
 --------------------------------------------------- */
 @import "compass";
-@import "bootstrap";
+@import "normalize";
 
-/* Bootstrap
---------------------------------------------------- */
-.nav > li > a:hover,
-.nav > li > a:focus {
-  background:none;
-}
+$anchor-font-color: $navy;
+$anchor-font-color-hover: black;
+$label-radius: 4px;
+$sub-nav-border-radius: 4px;
+$sub-nav-active-color: $lightBrown;
+$sub-nav-active-bg: $linkColor;
+$sub-nav-active-padding: 5px 9px;
 
-.nav-pills > .active > a,
-.nav-pills > .active > a:hover,
-.nav-pills > .active > a:focus {
-  color: $lightBrown;
-  background-color: $linkColor;
-}
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/variables";
+
+// Foundation Components
+@import
+  "foundation/components/global",
+  "foundation/components/grid",
+  "foundation/components/visibility",
+  "foundation/components/type",
+  "foundation/components/buttons",
+  "foundation/components/forms",
+  "foundation/components/section",
+  "foundation/components/labels",
+  "foundation/components/tooltips",
+  "foundation/components/sub-nav";
 
 .btn-middleman {
-  background-color: hsl(201, 33%, 8%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c4858", endColorstr="#0d161b");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#2c4858), to(#0d161b));
-  background-image: -moz-linear-gradient(top, #2c4858, #0d161b);
-  background-image: -ms-linear-gradient(top, #2c4858, #0d161b);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c4858), color-stop(100%, #0d161b));
-  background-image: -webkit-linear-gradient(top, #2c4858, #0d161b);
-  background-image: -o-linear-gradient(top, #2c4858, #0d161b);
-  background-image: linear-gradient(#2c4858, #0d161b);
+  @include background(linear-gradient(#2c4858, #0d161b));
   border-color: #0d161b #0d161b hsl(201, 33%, 3.5%);
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
-  -webkit-font-smoothing: antialiased;
 }
 
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
-  border-color: $lightBrown;
-  box-shadow: 0 1px 1px $lightBrown inset, 0 0 8px $lightBrown;
-  outline: 0 none;
-}
-
-.nav-tabs > li, .nav-pills > li {
-  float:none;
-  display:inline-block;
-  *display:inline; /* ie7 fix */
-  zoom:1; /* hasLayout ie7 trigger */
-}
-
-.nav-tabs, .nav-pills {
-  text-align:center;
+.btn-github {
+  @include background(linear-gradient(#ffffff, #e6e6e6));
+  border-color: #bbb;
+  color: black;
 }
 
 /* Main
 --------------------------------------------------- */
-html {
-  overflow-y: scroll; 
-}
-
 body {
+  -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background: $lightBrown inline-image("header.bg.png") no-repeat center top;
+  background: $lightBrown;
   margin: 0; 
-  padding-top: 2px;
   padding-bottom: 40px;
 }
 
 hr {
   border-top: 2px solid $lightBrown;
   border-bottom: 1px solid tint($lightBrown, 70);
+}
+
+.label {
+  background-color: #999999;  
 }
 
 .label-official {
@@ -94,64 +86,63 @@ hr {
 }
 
 .header {
+  background: image-url("header.bg.png") no-repeat 50% 10%;
+  color: tint($navy, 25);
+  padding-bottom: 20px;
 
   h1 {
-    margin-top: 0;
+    margin: 0;
+    .logo {
+      display: block;
+      position: relative;
+      @include border-radius(0 0 4px 4px);
+      overflow: hidden;
+      height: 290px - 224px;
+      width: 290px;
+      img { 
+        width: 290px;
+        height: 290px;
+        position: absolute;
+        top: -210px; }
+    }
   }
 
-  .logo {
-    @include border-radius(4px);
-    overflow: hidden;
-    display: block;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: -142px;
-  }
-
-}
-
-.masthead {
-  margin: 90px 0 40px 0;
-  text-align: left;
-  color: tint($navy, 25);
-
-  .extension-lead {
-    margin-top: 19px;
-
-    h1 {
-      line-height: 1;
-      color: $navy;
-      margin-bottom: 0px;
-      text-shadow: tint($navy, 85) 0px 1px 0;
-    }
-
-    p {
-      margin-left: 1.5px;
-    }
-
+  .sub-nav {
+    margin: 10px 0 0 0;
+    dt:first-child, dd:first-child { margin-left: 0; }
   }
 
   .extension-search {
-    margin-top: 25px;
+    margin-top: 10px;
 
     .input-append {
-      margin-bottom: 5px;
-    }
-
-    input {
-      width: 428px;
+      position: relative;
     }
 
     .listjs-search-icon {
-      width:40px;
+      width: 40px;
+    }
+
+    input {
+      @include border-radius(4px 0 0 4px);
+    }
+
+    button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+      height: 100%;
+      @include border-radius(0 4px 4px 0);
     }
 
   }
 
   .extension-suggestions {
-
     p {
+      font-size: 13px;
+      margin-top: -10px;
       margin-left: 0.5px;
       text-shadow: tint($lightBrown, 70) 0px 1px 0;
     }
@@ -163,67 +154,77 @@ hr {
     }
 
   }
-
 }
 
 .list-container {
-  padding-top: 15px;
-  padding-bottom: 5px;
   border-top: 1px solid $lightBrown;
-  background: $lightBrown inline-image("main.bg.png") repeat center top;
-  min-height: 500px;
+  background: $lightBrown image-url("main.bg.png") repeat center top;
   @include border-radius(4px);
+  position: relative;
+
+  .sub-nav {
+    margin: 15px 15px 10px 15px;
+    dd {
+      cursor: pointer;
+    }
+    dt:first-child, dd:first-child { margin-left: 0; }
+  }
 
   .listjs-list {
-    list-style-type: none;
-    margin-left: 0px;
-
-    li {
-      padding: 20px 10px 0px 15px;
+    .row {
+      padding: 10px 0 10px 0;
       border-top: 5px solid tint($lightBrown, 15);
       border-bottom: 5px solid tint($lightBrown, 15);
+      margin: 0;
+    }
 
-      .list-details {
-        padding-left: 25px;
+    .list-details {
 
-        h2 {
-          line-height: 1;
-          color: $navy;
-          margin-top: 10px;
-          margin-bottom: 2px;
-          text-transform: capitalize;
+      .description {
+        margin-bottom: 0;
+      }
 
-          a {
-            text-decoration: none;
-          }
+      h2 {
+        line-height: 1;
+        color: $navy;
+        text-transform: capitalize;
 
-          .label {
-            margin-left: 5px;
-            vertical-align: middle;
-          }
-
+        a {
+          text-decoration: none;
         }
 
-        .list-details-footer {
-
-          a {
-            font-size: 14px;
-          }
-
+        .label {
+          margin-right: 5px;
+          vertical-align: middle;
+          font-size: 13px;
+          @include border-radius(4px);
+          padding: 4px 6px;
         }
+      }
 
-        p {
-          margin-left: 1px;
-          margin-bottom: 35px;
+      .list-details-footer {
+
+        a {
+          font-size: 14px;
         }
 
       }
 
-      .well {
-        border: 1px solid tint($lightBrown, 15);
-        background-color: tint($lightBrown, 25);
+      p {
       }
 
+    }
+
+    .well {
+      padding: 15px;
+      border: 1px solid tint($lightBrown, 15);
+      background-color: tint($lightBrown, 25);
+      .button {
+        @include border-radius(4px);
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
 
     li:first-child {
@@ -267,3 +268,8 @@ span.tip-right {
   font-size: 1.2em;
   line-height: 0;
 }
+
+@import "_libs/github-fork-ribbon";
+
+$fontAwesomePath: "./font-awesome";
+@import "font-awesome/font-awesome";

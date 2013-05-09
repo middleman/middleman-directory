@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width" />
+    <%= stylesheet_link_tag :main %>
+    <!--[if IE]>
+      <%= stylesheet_link_tag "github-fork-ribbon.ie" %>
+    <![endif]-->
+    <title>Middleman Directory</title>
+    <%= javascript_include_tag :modernizr %>
+  </head>
+  <body>
+
+    <div class="header row">
+      <div class="columns large-5">
+        <h1><a href="http://middlemanapp.com" class="logo" target="_blank"><%= image_tag("mm-blue-w-text.svg", :width => 200, :height => 200, :alt => "Middleman Directory") %></a></h1>
+        <dl class="sub-nav">
+          <dt class="active"><a>Extensions</a></dt>
+          <dt><a><s>Templates</s></a></dt>
+          <dt><a><s>Services</s></a></dt>
+        </dl>
+      </div>
+      <div class="columns large-7">
+        <div class="extension-search">
+          <div class="input-append">
+            <input type="text" class="listjs-search" placeholder="Search to filter extensions...">
+            <button type="button" id="listjs-search-remove" class="btn btn-middleman listjs-search-icon"><i class="icon-search icon-white"></i></button>
+          </div>
+        </div>
+        <div class="extension-suggestions">
+          <p><span class="tip-right">↪</span> <a class="tag" href="#">S3</a>, <a class="tag" href="#">CDN</a>, <a class="tag" href="#">Syntax</a>, <a class="tag" href="#">Blog</a>, <a class="tag" href="#">Favicon</a>, <a class="tag" href="#">SVG</a>, <a class="tag" href="#">Favicon</a>, <a class="tag" href="#">Compress</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container row" id="listjs">
+      <div class="columns large-12">
+
+<%= yield %>
+
+
+        <div class="footer">
+          <p class="copyright">&copy; 2013-<%= Time.now.year %> Middleman. Original development by <a href="http://karlfreeman.co.uk" target="_blank">Karl Freeman</a>.</p>
+          <p class="fork"><a href="https://github.com/middleman/middleman-directory" target="_blank">Fork and edit this on Github</a></p>
+        </div>
+      </div>
+    </div>
+
+    <%= javascript_include_tag :main %>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '518c0941613f5d720e000048');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>

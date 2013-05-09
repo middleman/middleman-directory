@@ -1,4 +1,5 @@
-//= require_tree ./libs
+//= require "_libs/jquery-ajax-css-deprecated-dimensions-effects-event-alias-offset-sizzle-wrap"
+//= require "_libs/list"
 
 $(function(){
 
@@ -11,7 +12,7 @@ $(function(){
 
   var featureList = new List("listjs", options);
 
-  $('#filter-official').click(function() {
+  $('#filter-official').on('click', function() {
       featureList.filter(function(item) {
           if (item.values().category == "Official") {
               return true;
@@ -22,7 +23,7 @@ $(function(){
       return false;
   });
 
-  $('#filter-community').click(function() {
+  $('#filter-community').on('click', function() {
       featureList.filter(function(item) {
           if (item.values().category == "Community") {
               return true;
@@ -33,7 +34,7 @@ $(function(){
       return false;
   });
 
-  $('#filter-tooling').click(function() {
+  $('#filter-tooling').on('click', function() {
       featureList.filter(function(item) {
           if (item.values().subcategory == "Tooling") {
               return true;
@@ -44,7 +45,7 @@ $(function(){
       return false;
   });
 
-  $('#filter-optimization').click(function() {
+  $('#filter-optimization').on('click', function() {
       featureList.filter(function(item) {
           if (item.values().subcategory == "Optimization") {
               return true;
@@ -55,7 +56,7 @@ $(function(){
       return false;
   });
 
-  $('#filter-deployment').click(function() {
+  $('#filter-deployment').on('click', function() {
       featureList.filter(function(item) {
           if (item.values().subcategory == "Deployment") {
               return true;
@@ -66,29 +67,29 @@ $(function(){
       return false;
   });
 
-  $('#filter-none').click(function() {
+  $('#filter-none').on('click', function() {
     featureList.filter();
     return false;
   });
 
-  $('#listjs-search-remove').click(function() {
-    $('.listjs-search').val("").keyup();
+  $('#listjs-search-remove').on('click', function() {
+    $('.listjs-search').val("").trigger('keyup');
     featureList.search($('.listjs-search').val());
     return false;
   });
 
-  $('.list-container ul.nav-pills li a').click(function (e) {
-    $('.list-container ul.nav-pills li.active').removeClass('active')
-    $(this).parent('li').addClass('active')
-  })
+  $('.list-container .sub-nav dd a').on('click', function (e) {
+    $('.list-container .sub-nav dd.active').removeClass('active');
+    $(this).parent('dd').addClass('active');
+  });
 
-  $('.tag').click(function() {
-    $('.listjs-search').val( $(this).text() ).keyup();
+  $('.tag').on('click', function() {
+    $('.listjs-search').val( $(this).text() ).trigger('keyup');
     featureList.search($(this).text());
     return false;
   });
 
-  $('.listjs-search').keyup(function(){
+  $('.listjs-search').on('keyup', function(){
     if($('.listjs-search').val() == ""){
       $('#listjs-search-remove').html("<i class='icon-search icon-white'></i>");
     } else {
