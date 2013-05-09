@@ -1,0 +1,19 @@
+<li>
+ <div class="row">
+   <div class="list-details span8">
+     <h2 class="name"><a href="<%= extension["links"]["github"] %>" target="_blank"><%= extension["name"] %></a>
+       <% if extension["official"] %><span class="label label-official category">Official</span><% else %><span class="label label-community category">Community</span><% end %><% extension["tags"].each do |tag| %><span class="label subcategory"><%= tag %></span><% end %>
+     </h2>
+     <p class="description"><%= extension["description"] %></p>
+     <div class="list-details-footer">
+       <i class="icon-link"></i> <a href="<%= extension["links"]["github"] %>" target="_blank"><%= extension["links"]["github"] %></a>
+     </div>
+   </div>
+   <div class="span3">
+     <div class="well">
+       <a class="btn btn-large btn-block" href="<%= extension["links"]["github"] %>" target="_blank"><i class="icon-github icon-large" style="line-height: 1.2em;"></i> Github</a>
+       <a class="btn btn-large btn-block btn-middleman"><i class="icon-cog icon-large" style="line-height: 1.2em;"></i> <s>Config</s></a>
+     </div>
+   </div>
+ </div>
+</li>

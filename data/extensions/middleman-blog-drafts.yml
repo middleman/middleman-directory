@@ -1,0 +1,7 @@
+name: middleman-blog-drafts
+description: An addon for middleman-blog that simplifies draft posts creation and publishing.
+links:
+  github: https://github.com/fgrehm/middleman-blog-drafts
+official: false
+tags:
+  - Tooling

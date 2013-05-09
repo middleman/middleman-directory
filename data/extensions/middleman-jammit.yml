@@ -1,0 +1,7 @@
+name: middleman-jammit
+description: Use Jammit in Middleman.
+links:
+  github: https://github.com/matt-hh/middleman-jammit
+official: false
+tags:
+  - Tooling

@@ -1,0 +1,7 @@
+name: middleman-svg-fallback
+description: Generate nice JPEG and PNG files from any SVG files.
+links:
+  github: https://github.com/yeah/middleman-svg-fallback
+official: false
+tags:
+  - Optimization

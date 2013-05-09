@@ -1,0 +1,269 @@
+/* Colors Variables
+--------------------------------------------------- */
+$xLightBrown: #efe8d5;
+$lightBrown: #e1d7be;
+$midBrown: #957642;
+$darkBrown: #655740;
+$navy: #002b36;
+
+/* Bootstrap Variables
+--------------------------------------------------- */
+$copy-color: $darkBrown;
+$linkColor: $navy;
+$iconSpritePath: '';
+$iconWhiteSpritePath: '';
+
+/* Imports
+--------------------------------------------------- */
+@import "compass";
+@import "bootstrap";
+
+/* Bootstrap
+--------------------------------------------------- */
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background:none;
+}
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  color: $lightBrown;
+  background-color: $linkColor;
+}
+
+.btn-middleman {
+  background-color: hsl(201, 33%, 8%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c4858", endColorstr="#0d161b");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2c4858), to(#0d161b));
+  background-image: -moz-linear-gradient(top, #2c4858, #0d161b);
+  background-image: -ms-linear-gradient(top, #2c4858, #0d161b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c4858), color-stop(100%, #0d161b));
+  background-image: -webkit-linear-gradient(top, #2c4858, #0d161b);
+  background-image: -o-linear-gradient(top, #2c4858, #0d161b);
+  background-image: linear-gradient(#2c4858, #0d161b);
+  border-color: #0d161b #0d161b hsl(201, 33%, 3.5%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  border-color: $lightBrown;
+  box-shadow: 0 1px 1px $lightBrown inset, 0 0 8px $lightBrown;
+  outline: 0 none;
+}
+
+.nav-tabs > li, .nav-pills > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+  text-align:center;
+}
+
+/* Main
+--------------------------------------------------- */
+html {
+  overflow-y: scroll; 
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  background: $lightBrown inline-image("header.bg.png") no-repeat center top;
+  margin: 0; 
+  padding-top: 2px;
+  padding-bottom: 40px;
+}
+
+hr {
+  border-top: 2px solid $lightBrown;
+  border-bottom: 1px solid tint($lightBrown, 70);
+}
+
+.label-official {
+  background-color: $navy;  
+}
+
+.label-community {
+  background-color: $midBrown;  
+}
+
+.header {
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .logo {
+    @include border-radius(4px);
+    overflow: hidden;
+    display: block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -142px;
+  }
+
+}
+
+.masthead {
+  margin: 90px 0 40px 0;
+  text-align: left;
+  color: tint($navy, 25);
+
+  .extension-lead {
+    margin-top: 19px;
+
+    h1 {
+      line-height: 1;
+      color: $navy;
+      margin-bottom: 0px;
+      text-shadow: tint($navy, 85) 0px 1px 0;
+    }
+
+    p {
+      margin-left: 1.5px;
+    }
+
+  }
+
+  .extension-search {
+    margin-top: 25px;
+
+    .input-append {
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 428px;
+    }
+
+    .listjs-search-icon {
+      width:40px;
+    }
+
+  }
+
+  .extension-suggestions {
+
+    p {
+      margin-left: 0.5px;
+      text-shadow: tint($lightBrown, 70) 0px 1px 0;
+    }
+
+    a {
+      color: tint($navy, 25);
+      text-shadow: tint($lightBrown, 70) 0px 1px 0;
+      text-decoration: none;
+    }
+
+  }
+
+}
+
+.list-container {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-top: 1px solid $lightBrown;
+  background: $lightBrown inline-image("main.bg.png") repeat center top;
+  min-height: 500px;
+  @include border-radius(4px);
+
+  .listjs-list {
+    list-style-type: none;
+    margin-left: 0px;
+
+    li {
+      padding: 20px 10px 0px 15px;
+      border-top: 5px solid tint($lightBrown, 15);
+      border-bottom: 5px solid tint($lightBrown, 15);
+
+      .list-details {
+        padding-left: 25px;
+
+        h2 {
+          line-height: 1;
+          color: $navy;
+          margin-top: 10px;
+          margin-bottom: 2px;
+          text-transform: capitalize;
+
+          a {
+            text-decoration: none;
+          }
+
+          .label {
+            margin-left: 5px;
+            vertical-align: middle;
+          }
+
+        }
+
+        .list-details-footer {
+
+          a {
+            font-size: 14px;
+          }
+
+        }
+
+        p {
+          margin-left: 1px;
+          margin-bottom: 35px;
+        }
+
+      }
+
+      .well {
+        border: 1px solid tint($lightBrown, 15);
+        background-color: tint($lightBrown, 25);
+      }
+
+    }
+
+    li:first-child {
+      border-top: 7.5px solid tint($lightBrown, 15);
+    }
+
+    li:last-child {
+      border-bottom: 7.5px solid tint($lightBrown, 15);
+    }
+
+  }
+
+}
+
+.footer {
+  margin-top: 20px;
+  color: tint($navy, 25);
+  font-size: 13px;
+
+  .copyright {
+    float:left;
+    display: inline;
+  }
+
+  .fork {
+    float: right;
+    display: inline;
+  }
+
+  a {
+    color: tint($navy, 25);
+  }
+
+}
+
+/*      Typography
+--------------------------------------------------- */
+span.tip-right {
+  color: $navy;
+  vertical-align: -0.15em;
+  font-size: 1.2em;
+  line-height: 0;
+}

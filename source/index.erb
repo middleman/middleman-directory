@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <%= stylesheet_link_tag "main" %>
+    <%= stylesheet_link_tag "libs/github-fork-ribbon/github-fork-ribbon" %>
+    <%= stylesheet_link_tag "libs/font-awesome/font-awesome" %>
+    <!--[if IE]>
+      <%= stylesheet_link_tag "libs/github-fork-ribbon/github-fork-ribbon.ie" %>
+    <![endif]-->
+    <%= javascript_include_tag "//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js" %>
+    <%= javascript_include_tag "main" %>
+    <title>Middleman Extensions</title>
+  </head>
+  <body>
+
+    <div class="github-fork-ribbon-wrapper right">
+      <div class="github-fork-ribbon">
+        <a href="https://github.com/middleman/middleman-directory" target="_blank">Add Your Extension <i class="icon-github-alt"></i></a>
+      </div>
+    </div>
+  
+    <div class="container" id="listjs">
+
+      <div class="header">
+        <h1><a href="http://middlemanapp.com" class="logo" target="_blank"><%= image_tag("mm-blue-w-text.svg", :width => 200, :height => 200, :alt => "Middleman Extensions") %></a></h1>
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="">Extensions</a></li>
+          <li><a href="#"><s>Templates</s></a></li>
+          <li><a href="#"><s>Services</s></a></li>
+        </ul>
+      </div>
+
+      <div class="masthead">
+        <div class="row">
+          <div class="span6">
+            <div class="extension-lead">
+              <h1>Middleman Extensions</h1>
+              <p>A community curated directory of extensions for Middleman</p>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="row extension-search">
+              <div class="input-append">
+                <input type="text" class="listjs-search span5" placeholder="Search to filter extensions...">
+                <button type="button" id="listjs-search-remove" class="btn btn-middleman listjs-search-icon"><i class="icon-search icon-white"></i></button>
+              </div>
+            </div>
+            <div class="row extension-suggestions">
+              <p><span class="tip-right">↪</span> <a class="tag" href="#">S3</a>, <a class="tag" href="#">CDN</a>, <a class="tag" href="#">Syntax</a>, <a class="tag" href="#">Blog</a>, <a class="tag" href="#">Favicon</a>, <a class="tag" href="#">SVG</a>, <a class="tag" href="#">Favicon</a>, <a class="tag" href="#">Compress</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-container">
+
+        <div class="row">
+          <div class="span12">
+            <ul class="nav nav-pills centered-pills filterpills">
+              <li class="active" id="filter-none"><a href="#">Show All</a></li>
+              <li id="filter-official"><a href="#">Only show 'Official'</a></li>
+              <li id="filter-community"><a href="#" >Only show 'Community'</a></li>
+              <li id="filter-tooling"><a href="#" >Only show 'Tooling'</a></li>
+              <li id="filter-optimization"><a href="#">Only show 'Optimization'</a></li>
+              <li id="filter-deployment"><a href="#">Only show 'Deployment'</a></li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="span12">
+            <ul class="listjs-list">
+               <% data.to_h.keep_if { |k, v| k =~ /middleman/ }.values.shuffle.each do |extension| %>
+                <%= partial(:list_item, :locals => { :extension => extension }) %>
+               <% end %>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="copyright">&copy; 2013-<%= Time.now.year %> <a href="http://karlfreeman.co.uk" target="_blank">Karl Freeman</a>.</p>
+        <p class="fork"><a href="https://github.com/middleman/middleman-directory" target="_blank">Fork and edit this on Github</a></p>
+      </div>
+
+    </div>
+
+  </body>
+</html>

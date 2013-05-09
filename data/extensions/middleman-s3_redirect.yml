@@ -1,0 +1,7 @@
+name: middleman-s3_redirect
+description: Configure S3 to redirect URLs to a new location.
+links:
+  github: https://github.com/fredjean/middleman-s3_redirect
+official: false
+tags:
+  - Deployment

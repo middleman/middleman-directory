@@ -1,0 +1,7 @@
+name: middleman-smusher
+description: Compress Images during Build.
+links:
+  github: https://github.com/middleman/middleman-smusher
+official: true
+tags:
+  - Optimization

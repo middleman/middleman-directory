@@ -1,0 +1,7 @@
+name: middleman-deploy
+description: Deploy a Middleman built site over rsync.
+links:
+  github: https://github.com/tvaughan/middleman-deploy
+official: false
+tags:
+  - Deployment

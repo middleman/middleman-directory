@@ -1,0 +1,7 @@
+name: middleman-target
+description: Create and build source for separate build targets.
+links:
+  github: https://github.com/xunker/middleman-target
+official: false
+tags:
+  - Tooling
