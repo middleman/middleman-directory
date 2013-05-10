@@ -1,7 +1,0 @@
-name: middleman-cloudfront
-description: An Amazon CloudFront extension for middleman which allows you to invalidate CloudFront CDN cache.
-links:
-  github: https://github.com/andrusha/middleman-cloudfront
-official: false
-tags:
-  - Deployment

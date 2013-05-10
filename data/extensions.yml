@@ -1,0 +1,130 @@
+-
+  name: middleman-blog-drafts
+  description: An addon for middleman-blog that simplifies draft posts creation and publishing.
+  links:
+    github: https://github.com/fgrehm/middleman-blog-drafts
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+-
+  name: middleman-cloudfront
+  description: An Amazon CloudFront extension for middleman which allows you to invalidate CloudFront CDN cache.
+  links:
+    github: https://github.com/andrusha/middleman-cloudfront
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
+  name: middleman-deploy
+  description: Deploy a Middleman built site over rsync.
+  links:
+    github: https://github.com/tvaughan/middleman-deploy
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
+  name: middleman-favicon-maker
+  description: Generate favicon files in various sizes from a base image.
+  links:
+    github: https://github.com/follmann/middleman-favicon-maker
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+-
+  name: middleman-jammit
+  description: Use Jammit in Middleman.
+  links:
+    github: https://github.com/matt-hh/middleman-jammit
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+-
+  name: middleman-livereload
+  description: LiveReload for Middleman.
+  links:
+    github: https://github.com/middleman/middleman-livereload
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Official
+-
+  name: middleman-s3_redirect
+  description: Configure S3 to redirect URLs to a new location.
+  links:
+    github: https://github.com/fredjean/middleman-s3_redirect
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
+  name: middleman-s3_sync
+  description: Tries really hard not to push files to S3 (but will gladly do it if it must).
+  links:
+    github: https://github.com/fredjean/middleman-s3_sync
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
+  name: middleman-smusher
+  description: Compress Images during Build.
+  links:
+    github: https://github.com/middleman/middleman-smusher
+  supported_api_versions:
+    - original
+  tags:
+    - Optimization
+    - Official
+-
+  name: middleman-svg-fallback
+  description: Generate nice JPEG and PNG files from any SVG files.
+  links:
+    github: https://github.com/yeah/middleman-svg-fallback
+  supported_api_versions:
+    - original
+  tags:
+    - Optimization
+-
+  name: middleman-sync
+  description: Synchronise your Middleman build to S3 and more.
+  links:
+    github: https://github.com/karlfreeman/middleman-sync
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
+  name: middleman-syntax
+  description: Code syntax highlighting.
+  links:
+    github: https://github.com/middleman/middleman-syntax
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Official
+-
+  name: middleman-blog
+  description: Middleman blogging extension
+  links:
+    github: https://github.com/middleman/middleman-blog
+  supported_api_versions:
+    - original
+    - v4
+  tags:
+    - Official
+-
+  name: middleman-target
+  description: Create and build source for separate build targets.
+  links:
+    github: https://github.com/xunker/middleman-target
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling

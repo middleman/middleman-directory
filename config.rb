@@ -8,8 +8,11 @@ activate :fjords do |config|
   config.cdn = true
 end
 
+activate :ember
+
 configure :build do
-  activate :gzip
+  set :ember_variant, :production
+  
   activate :minify_css
   activate :minify_javascript
 end

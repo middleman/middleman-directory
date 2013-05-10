@@ -1,7 +1,0 @@
-name: middleman-sync
-description: Synchronise your Middleman build to S3 and more.
-links:
-  github: https://github.com/karlfreeman/middleman-sync
-official: false
-tags:
-  - Deployment

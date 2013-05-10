@@ -1,7 +1,0 @@
-name: middleman-favicon-maker
-description: Generate favicon files in various sizes from a base image.
-links:
-  github: https://github.com/follmann/middleman-favicon-maker
-official: false
-tags:
-  - Generator

@@ -1,7 +1,0 @@
-name: middleman-syntax
-description: Code syntax highlighting.
-links:
-  github: https://github.com/middleman/middleman-syntax
-official: true
-tags:
-  - Tooling

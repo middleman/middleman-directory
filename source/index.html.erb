@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width" />
+    <%= stylesheet_link_tag :main %>
+    <!--[if IE]>
+      <%= stylesheet_link_tag "github-fork-ribbon.ie" %>
+    <![endif]-->
+    <title>Middleman Directory</title>
+    <%= javascript_include_tag :modernizr %>
+  </head>
+  <body>
+    <script type="text/x-handlebars" data-template-name="application">
+      <div class="header row">
+        <div class="columns large-5">
+          <h1>
+            {{#linkTo index class="logo"}}
+            <%= image_tag("mm-blue-w-text.svg", :width => 200, :height => 200, :alt => "Middleman Directory") %>{{/linkTo}}
+          </h1>
+          <dl class="sub-nav">
+            {{#each cat in categories}}
+              {{#linkTo category cat tagName="dt"}}<a>{{cat.name}}</a>{{/linkTo}}
+            {{/each}}
+          </dl>
+        </div>
+        <div class="columns large-7">
+          <div class="extension-search">
+            {{view App.FilterView valueBinding="filterText"}}
+          </div>
+          <div class="extension-suggestions">
+            <p>
+              <span class="tip-right">↪</span>
+              <a class="tag" {{action filter "S3"}}>S3</a>,
+              <a class="tag" {{action filter "CDN"}}>CDN</a>,
+              <a class="tag" {{action filter "Syntax"}}>Syntax</a>,
+              <a class="tag" {{action filter "Blog"}}>Blog</a>,
+              <a class="tag" {{action filter "Favicon"}}>Favicon</a>,
+              <a class="tag" {{action filter "SVG"}}>SVG</a>,
+              <a class="tag" {{action filter "Favicon"}}>Favicon</a>,
+              <a class="tag" {{action filter "Compress"}}>Compress</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container row">
+        <div class="columns large-12">
+          {{outlet}}
+
+          <div class="footer">
+            <p class="copyright">&copy; 2013-<%= Time.now.year %> Middleman. Original development by <a href="http://karlfreeman.co.uk" target="_blank">Karl Freeman</a>.</p>
+            <p class="fork"><a href="https://github.com/middleman/middleman-directory" target="_blank">Fork and edit this on Github</a></p>
+          </div>
+        </div>
+      </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="category">
+      <div class="list-container">
+        <div class="github-fork-ribbon-wrapper right">
+          <div class="github-fork-ribbon">
+            <a href="https://github.com/middleman/middleman-directory" target="_blank">Add Your Extension <i class="icon-github-alt"></i></a>
+          </div>
+        </div>
+
+        <dl class="sub-nav">
+          {{#each tag in sortedTags}}
+            {{#linkTo category.tag tag tagName="dd"}}<a>{{tag.name}}</a>{{/linkTo}}
+          {{/each}}
+        </dl>
+
+        {{outlet}}
+      </div>
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="category/tag">
+      <div class="listjs-list">
+        {{#each sortedItems}}
+          <div class="row">
+             <div class="list-details columns large-8">
+               <h2 class="name">
+                <a href="{{links.github}}" target="_blank">{{name}}</a>
+
+                {{#if isOfficial}}
+                  <span class="label label-official category">Official</span>
+                {{else}}
+                  <span class="label label-community category">Community</span>
+                {{/if}}
+
+                {{#each tag in tagsWithoutOfficial}}
+                  <span class="label subcategory">{{tag.name}}</span>
+                {{/each}}
+               </h2>
+               <p class="description">{{description}}</p>
+               <p class="list-details-footer">
+                {{#if links.github}}
+                   <i class="icon-link"></i><a {{bindAttr href=links.github}} target="_blank">{{links.github}}</a>
+                {{/if}}
+                {{#if links.site}}
+                   <i class="icon-link"></i><a {{bindAttr href=links.site}} target="_blank">{{links.site}}</a>
+                {{/if}}
+               </p>
+             </div>
+             <div class="columns large-4">
+               <div class="well">
+                {{#if links.github}}
+                   <a class="button expand btn-github" {{bindAttr href=links.github}} target="_blank"><i class="icon-github icon-large" style="line-height: 1.2em;"></i> Github</a>
+                {{/if}}
+                 <a class="button expand btn-middleman"><i class="icon-cog icon-large" style="line-height: 1.2em;"></i> <s>Config</s></a>
+               </div>
+             </div>
+          </div>
+        {{/each}}
+      </div>
+    </script>
+
+    <script>
+      CATEGORIES = [
+        {
+          name: 'Extensions',
+          data: <%= data.extensions.map(&:to_h).to_json %>
+        },
+        {
+          name: 'Templates',
+          data: <%= data.templates.map(&:to_h).to_json %>
+        },
+        {
+          name: 'Services',
+          data: <%= data.services.map(&:to_h).to_json %>
+        }
+      ];
+    </script>
+    <%= javascript_include_tag :main %>
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '518c0941613f5d720e000048');
+        t.src = '//secure.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>

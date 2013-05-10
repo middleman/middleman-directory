@@ -110,6 +110,7 @@ hr {
   .sub-nav {
     margin: 10px 0 0 0;
     dt:first-child, dd:first-child { margin-left: 0; }
+    dt a, dd a { cursor: pointer; }
   }
 
   .extension-search {
@@ -151,6 +152,7 @@ hr {
       color: tint($navy, 25);
       text-shadow: tint($lightBrown, 70) 0px 1px 0;
       text-decoration: none;
+      cursor: pointer;
     }
 
   }

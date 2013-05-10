@@ -1,7 +1,0 @@
-name: middleman-livereload
-description: LiveReload for Middleman.
-links:
-  github: https://github.com/middleman/middleman-livereload
-official: true
-tags:
-  - Tooling

@@ -1,7 +1,0 @@
-name: middleman-s3_sync
-description: Tries really hard not to push files to S3 (but will gladly do it if it must).
-links:
-  github: https://github.com/fredjean/middleman-s3_sync
-official: false
-tags:
-  - Deployment
