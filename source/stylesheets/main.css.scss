@@ -60,6 +60,10 @@ $sub-nav-active-padding: 5px 9px;
 
 /* Main
 --------------------------------------------------- */
+html {
+  background: $lightBrown;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
