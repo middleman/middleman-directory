@@ -52,9 +52,17 @@ $sub-nav-active-padding: 5px 9px;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.29);
 }
 
+.btn-middleman:hover{
+  color: #fff;
+}
+
 .btn-github {
   @include background(linear-gradient(#ffffff, #e6e6e6));
   border-color: #bbb;
+  color: black;
+}
+
+.btn-github:hover{
   color: black;
 }
 
