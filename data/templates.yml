@@ -1,6 +1,80 @@
 -
   name: Amicus
-  description: "HTML5 Boilerplate 4.0, Sass, Compass & Susy with a responsive layout and up-to-date components."
+  description: HTML5 Boilerplate 4.0, Sass, Compass & Susy with a responsive layout and up-to-date components.
   links:
     github: https://github.com/nathos/amicus
+  tags: []
+-
+  name: CHUBBS!
+  description: Middleman Compass Haml (Uhu!) Boilerplate Bootstrap Sass Template from <a href="http://svallory.github.com/">The Blacksmith</a>.
+  links:
+    github: https://github.com/theblacksmith/chubbs
+  tags: []
+-
+  name: Middleman-Foundation
+  description: ZURB Foundation in Compass, SCSS & HAML.
+  links:
+    github: https://github.com/vocino/middleman-foundation
+  tags: []
+-
+  name: Middleman-Frameless
+  description: Basic project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
+  links:
+    github: https://github.com/BryanSchuetz/middleman-frameless
+  tags: []
+-
+  name: middleman-phonegap
+  description: Phonegap integration template with Haml, Sass, Coffeescript. Automatically compiles and emulates Phonegap application after build.
+  links:
+    github: https://github.com/pixelsonly/middleman-phonegap
+  tags:
+    - mobile
+-
+  name: middleman-zurb-template
+  description: Middleman blog template containing ZURB Foundation and sensible default components and templates.
+  links:
+    github: https://github.com/mattolson/middleman-zurb-template
+  tags: []
+-
+  name: Single Page with Bourbon
+  description: Good for a <a href="http://timbreapp.com">single page</a> site. Also integrates <a href="http://bourbon.io">Bourbon</a>
+  links:
+    github: https://github.com/edwardloveall/middleman-template-single-page-with-bourbon
+  tags: []
+-
+  name: Middleman-Heroku
+  description: Basic project template for Heroku.
+  links:
+    github: https://github.com/indirect/middleman-heroku-static-app
+  tags: []
+-
+  name: Middleman-Ratchet
+  description: Middleman plugin that adds support for the <a href="http://maker.github.com/ratchet/">Ratchet</a> prototyping mobile.
+  links:
+    github: https://github.com/caedes/middleman-ratchet
+  tags:
+    - mobile
+-
+  name: Middleman-Blog-Frameless
+  description: Basic Middleman-Blog project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
+  links:
+    github: https://github.com/BryanSchuetz/middleman-blog-frameless
+  tags: []
+-
+  name: Middleman setup with Haml, SASS and Coffeescript
+  description: 
+  links:
+    github: https://github.com/pixelsonly/middleman-hamlsasscoffee
+  tags: []
+-
+  name: middleman-impress
+  description: Middleman setup with Haml, SASS and impress.js* for HTML presentation
+  links:
+    github: https://github.com/blackbiron/middleman-impress
+  tags: []
+-
+  name: ResumeMan
+  description: A pre-configured Middleman setup for publishing resumes with built-in PDF export
+  links:
+    github: https://github.com/reefab/ResumeMan
   tags: []
