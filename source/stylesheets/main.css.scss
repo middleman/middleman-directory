@@ -194,12 +194,14 @@ hr {
     }
 
     .list-details {
+      margin-top: 5px;
 
       .description {
         margin-bottom: 0;
       }
 
       h2 {
+        margin-bottom: 2px;
         line-height: 1;
         color: $navy;
         text-transform: capitalize;
@@ -209,7 +211,6 @@ hr {
         }
 
         .label {
-          margin-right: 5px;
           vertical-align: middle;
           font-size: 13px;
           @include border-radius(4px);
@@ -218,6 +219,7 @@ hr {
       }
 
       .list-details-footer {
+        margin-bottom: 0.5em;
 
         i {
           vertical-align: middle;
