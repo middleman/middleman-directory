@@ -128,3 +128,11 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-ember
+  description: Adds Ember assets to a Middleman project. Support for production version of Ember when building.
+  links:
+    github: https://github.com/mrship/middleman-ember
+  official: false
+  tags:
+    - Tooling
