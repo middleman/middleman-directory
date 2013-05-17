@@ -1,5 +1,4 @@
-Middleman Directory
-================
+# Middleman Directory
 
 These are the source files that power the [middleman directory](http://middlemanapp.com/),
 a [middleman](https://github.com/middleman/middleman) powered static page.
@@ -14,8 +13,7 @@ Just add a new file to `data/extensions` for your extension, and send a pull req
 
 ## How to run the site locally
 
-Clone this repo and run `bundle install`.
-Then run `bundle exec middleman server` to start the server at `http://localhost:4567`
+Clone this repo and run `bundle install`. Then run `bundle exec middleman server` to start the server at `http://localhost:4567`
 
 ## Mailing List
 
