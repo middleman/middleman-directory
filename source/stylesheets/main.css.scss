@@ -121,7 +121,7 @@ hr {
 
   .sub-nav {
     margin: 10px 0 0 0;
-    dt:first-child, dd:first-child { margin-left: 0; }
+    dt:nth-of-type(1), dd:nth-of-type(1) { margin-left: 0; }
     dt a, dd a { cursor: pointer; }
   }
 
@@ -182,7 +182,7 @@ hr {
     dd {
       cursor: pointer;
     }
-    dt:first-child, dd:first-child { margin-left: 0; }
+    dt:nth-of-type(1), dd:nth-of-type(1) { margin-left: 0; }
   }
 
   .listjs-list {
@@ -201,10 +201,10 @@ hr {
       }
 
       h2 {
-        margin-bottom: 2px;
+        margin-bottom: 0.25em;
         line-height: 1;
         color: $navy;
-        text-transform: capitalize;
+        // text-transform: capitalize;
 
         a {
           text-decoration: none;
@@ -220,6 +220,7 @@ hr {
 
       .list-details-footer {
         margin-bottom: 0.5em;
+        display: none;
 
         i {
           vertical-align: middle;
@@ -241,11 +242,17 @@ hr {
       padding: 15px;
       border: 1px solid tint($lightBrown, 15);
       background-color: tint($lightBrown, 25);
+      margin-top: 15px;
       .button {
         @include border-radius(4px);
-        &:last-child {
+        // &:last-child {
           margin-bottom: 0;
-        }
+        // }
+      }
+
+
+      @media #{$small} {
+        margin-top: 0;
       }
     }
 

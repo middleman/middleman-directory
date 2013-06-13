@@ -94,7 +94,7 @@
                   <span class="label subcategory">{{tag.name}}</span>
                 {{/each}}
                </h2>
-               <p class="description">{{description}}</p>
+               <p class="description">{{{description}}}</p>
                <p class="list-details-footer">
                 {{#if links.github}}
                    <i class="icon-link"></i><a {{bindAttr href=links.github}} target="_blank">{{links.github}}</a>
@@ -104,12 +104,12 @@
                 {{/if}}
                </p>
              </div>
-             <div class="columns large-4">
+             <div class="columns large-3 large-offset-1">
                <div class="well">
                 {{#if links.github}}
                    <a class="button expand btn-github" {{bindAttr href=links.github}} target="_blank"><i class="icon-github icon-large" style="line-height: 1.2em;"></i> Github</a>
                 {{/if}}
-                 <a class="button expand btn-middleman"><i class="icon-cog icon-large" style="line-height: 1.2em;"></i> <s>Config</s></a>
+                 <!--a class="button expand btn-middleman"><i class="icon-cog icon-large" style="line-height: 1.2em;"></i> <s>Config</s></a-->
                </div>
              </div>
           </div>

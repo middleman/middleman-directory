@@ -72,16 +72,6 @@
   tags:
     - Deployment
 -
-  name: middleman-smusher
-  description: Compress Images during Build.
-  links:
-    github: https://github.com/middleman/middleman-smusher
-  supported_api_versions:
-    - original
-  tags:
-    - Optimization
-    - Official
--
   name: middleman-svg-fallback
   description: Generate nice JPEG and PNG files from any SVG files.
   links:
