@@ -82,7 +82,7 @@
           <div class="row">
              <div class="list-details columns large-8">
                <h2 class="name">
-                <a href="{{links.github}}" target="_blank">{{name}}</a>
+                <a {{bindAttr href=links.github}} target="_blank">{{name}}</a>
 
                 {{#if isOfficial}}
                   <span class="label label-official category">Official</span>
