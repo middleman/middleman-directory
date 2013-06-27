@@ -126,3 +126,11 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-middleman-bootstrap-navbar
+  description: Easily generate a Twitter Bootstrap navbar
+  links:
+    github: https://github.com/krautcomputing/middleman-bootstrap-navbar
+  official: false
+  tags:
+    - Tooling
