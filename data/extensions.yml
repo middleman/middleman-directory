@@ -126,3 +126,12 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-thumbnailer
+  description: Generate thumbnails of images
+  links:
+    github: https://github.com/nhemsley/middleman-thumbnailer
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
