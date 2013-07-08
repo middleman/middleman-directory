@@ -84,3 +84,9 @@
   links:
     github: https://github.com/nathanlong/middleman-combined
   tags: []
+-
+  name: Middleman-Prototype
+  description: Create first prototype with less-hassle-possible. Bootstrap-scss, Scss, jquery, html5shiv, haml
+  links:
+    github: https://github.com/skatkov/middleman-prototype
+  tags: []
