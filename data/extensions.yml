@@ -143,3 +143,12 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-build-sublime
+  description: Sublime Text Build Systems for middleman
+  links:
+    github: https://github.com/recomp/middleman-sublime
+  official: false
+  tags:
+    - Tooling
+-
