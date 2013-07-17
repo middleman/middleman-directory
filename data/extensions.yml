@@ -18,7 +18,7 @@
     - Deployment
 -
   name: middleman-deploy
-  description: Deploy a Middleman built site over rsync.
+  description: Deploy a middleman built site over rsync, ftp, stfp, or git (e.g. gh-pages on github).
   links:
     github: https://github.com/tvaughan/middleman-deploy
   supported_api_versions:
