@@ -90,3 +90,9 @@
   links:
     github: https://github.com/skatkov/middleman-prototype
   tags: []
+-
+  name: Middleman-Neato
+  description: Slim, Sass, Bourbon & Neat with a boilerplate base and some <a href="https://github.com/shkm/middleman-neato/blob/master/README.md#features">nifty features</a>.
+  links:
+    github: https://github.com/shkm/middleman-neato
+
