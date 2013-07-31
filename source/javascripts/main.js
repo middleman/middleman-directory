@@ -34,7 +34,11 @@ App.DirectoryItem = Ember.Object.extend({
 
   isOfficial: function() {
     return this.get('tags').filterProperty('name', 'Official').length;
-  }.property('tags.@each')
+  }.property('tags.@each'),
+
+  normalizedLink: function() {
+    return this.get('links.github') || this.get('links.site');
+  }.property('links.github', 'links.site')
 });
 
 App.Tag = Ember.Object.extend({});
@@ -48,7 +52,7 @@ App.Tag.tagForName = function(tagName) {
 
 var ObjectifiedCategories = CATEGORIES.map(function(cat) {
   cat.data = cat.data.map(function(item) {
-    item.tags = item.tags.map(function(tag) {
+    item.tags = Ember.A(item.tags).map(function(tag) {
       return App.Tag.tagForName(tag);
     });
     return App.DirectoryItem.create(item);
