@@ -1,4 +1,10 @@
 -
+  name: Jellyfish
+  description: Twitter Bootstrap 3(RC.1),Coffee script,RequireJS,AngularJS,HAML. Everything you need to build a fast reponsive and robust website
+  links:
+    github: https://github.com/kodeslacker/middleman-jellyfish
+  tags: ['angular','twitter bootstrap','middleman','coffee script','requirejs']
+-
   name: Amicus
   description: HTML5 Boilerplate 4.0, Sass, Compass & Susy with a responsive layout and up-to-date components.
   links:
