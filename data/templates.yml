@@ -36,6 +36,12 @@
     github: https://github.com/mattolson/middleman-zurb-template
   tags: []
 -
+  name: Sauce
+  description: Middleman template with Haml, Compass, CoffeeScript, and DRY file structure.
+  links:
+    github: https://github.com/nikiliu/sauce
+  tags: []
+-
   name: Single Page with Bourbon
   description: Good for a <a href="http://timbreapp.com">single page</a> site. Also integrates <a href="http://bourbon.io">Bourbon</a>
   links:
