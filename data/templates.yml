@@ -23,6 +23,12 @@
     github: https://github.com/vocino/middleman-foundation
   tags: []
 -
+  name: Middleman-Foundation-SMACSS
+  description: ZURB Foundation in Compass, SCSS & HAML & following the SMACSS style guide.
+  links:
+    github: https://github.com/hhg2288/foundation-smacss-middleman
+  tags: []
+-
   name: Middleman-Frameless
   description: Basic project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
   links:
