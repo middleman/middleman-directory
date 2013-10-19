@@ -118,3 +118,9 @@
   description: A <a href="http://framerjs.com">Framer.js</a> template for Middleman.
   links:
     github: https://github.com/shkm/middleman-neato
+-
+  name: middleman-bower
+  description: A middleman template that includes easy asset package managment with bower, among other cool features.
+  links:
+    github: https://github.com/headcanon/middleman-bower-template
+    
