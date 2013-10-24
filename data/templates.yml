@@ -1,4 +1,10 @@
 -
+  name: Slimmer
+  description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text poject file
+  links:
+    github: https://github.com/polymatt/slimmer
+  tags: ['slim', 'compass', 'coffeescript', 'bower', 'github pages', 'sublime text']
+-
   name: Jellyfish
   description: Twitter Bootstrap 3(RC.1),Coffee script,RequireJS,AngularJS,HAML. Everything you need to build a fast reponsive and robust website
   links:
