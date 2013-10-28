@@ -18,10 +18,10 @@
   tags: []
 -
   name: Middleman-Foundation
-  description: ZURB Foundation in Compass, SCSS & HAML.
+  description: ZURB Foundation in SCSS.
   links:
     github: https://github.com/vocino/middleman-foundation
-  tags: []
+  tags: [ZURB Foundation]
 -
   name: Middleman-Foundation-SMACSS
   description: ZURB Foundation in Compass, SCSS & HAML & following the SMACSS style guide.
