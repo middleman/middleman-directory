@@ -1,4 +1,13 @@
 -
+  name: middleman-imageoptim
+  description: Automatically compress and optimise your imagery during 'middleman build'.
+  links:
+    github: https://github.com/plasticine/middleman-imageoptim
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+-
   name: middleman-blog-drafts
   description: An addon for middleman-blog that simplifies draft posts creation and publishing.
   links:
