@@ -1,4 +1,10 @@
 -
+  name: middleman-casper
+  description: Casper theme (Ghost) for Middleman-Blog.
+  links:
+    github: https://github.com/danielbayerlein/middleman-casper
+  tags: [Theme, Blog]
+-
   name: Slimmer
   description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text poject file
   links:
@@ -123,4 +129,3 @@
   description: A middleman template that includes easy asset package managment with bower, among other cool features.
   links:
     github: https://github.com/headcanon/middleman-bower-template
-    
