@@ -1,4 +1,16 @@
 -
+  name: middleman-casper
+  description: Casper theme (Ghost) for Middleman-Blog.
+  links:
+    github: https://github.com/danielbayerlein/middleman-casper
+  tags: [Theme, Blog]
+-
+  name: middleman-impress
+  description: A Middleman Project Template built with impress.js, Haml, Sass and CoffeeScript.
+  links:
+    github: https://github.com/danielbayerlein/middleman-impress
+  tags: [Presentation]
+-
   name: Slimmer
   description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text poject file
   links:
