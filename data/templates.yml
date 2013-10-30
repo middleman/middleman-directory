@@ -135,3 +135,9 @@
   description: A middleman template that includes easy asset package managment with bower, among other cool features.
   links:
     github: https://github.com/headcanon/middleman-bower-template
+-
+  name: The Slender (middle) Man
+  description: A bare-bones template featuring simplicity and cleanness with Slim and Stylus on the top of H5BP, also comes with Bower support.
+  links:
+    github: https://github.com/PaBLoX-CL/slender-middle-man
+  tags: ['slim', 'stylus', 'bower', 'coffeescript']
