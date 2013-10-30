@@ -41,6 +41,12 @@
     github: https://github.com/hhg2288/foundation-smacss-middleman
   tags: []
 -
+  name: Middleman-Zurb-Foundation
+  description: Middleman Skeleton For Zurb Foundation (SASS version).
+  links:
+    github: https://github.com/axyz/middleman-zurb-foundation
+  tags: [ZURB Foundation SASS]
+-
   name: Middleman-Frameless
   description: Basic project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
   links:
