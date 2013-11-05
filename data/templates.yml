@@ -12,7 +12,7 @@
   tags: [Presentation]
 -
   name: Slimmer
-  description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text poject file
+  description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
   links:
     github: https://github.com/polymatt/slimmer
   tags: ['slim', 'compass', 'coffeescript', 'bower', 'github pages', 'sublime text']
