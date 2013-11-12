@@ -147,3 +147,9 @@
   links:
     github: https://github.com/PaBLoX-CL/slender-middle-man
   tags: ['slim', 'stylus', 'bower', 'coffeescript']
+-
+  name: middleman_starter
+  description: For people who prefer ERB to Haml, and who like BEM, SMACSS, Sass, and Susy. Also comes with a style guide if you're into atomic design.
+  links:
+    github: https://github.com/tombryan/middleman_starter
+  tags: ['mobile first']
