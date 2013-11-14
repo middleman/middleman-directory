@@ -153,3 +153,9 @@
   links:
     github: https://github.com/tombryan/middleman_starter
   tags: ['mobile first']
+-
+  name: Middleman-Bootstrap-Bower
+  description: Bootstrap + Middleman + Bower template.
+  links:
+    github: https://github.com/razorfly/middleman-bootstrap-template
+  tags: ['bootstrap', 'bower', 'markdown']
