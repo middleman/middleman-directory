@@ -98,7 +98,7 @@
   tags: []
 -
   name: Middleman setup with Haml, SASS and Coffeescript
-  description: 
+  description:
   links:
     github: https://github.com/pixelsonly/middleman-hamlsasscoffee
   tags: []
@@ -159,3 +159,9 @@
   links:
     github: https://github.com/razorfly/middleman-bootstrap-template
   tags: ['bootstrap', 'bower', 'markdown']
+-
+  name: Personal Site Template
+  description: A personal website using Zurb Foundation. Features a portfolio, blog, easy configuration-based setup, and Sass-based theming.
+  links:
+    github: http://github.com/techpeace/personal-site-template
+  tags: ['ZURB Foundation', 'SASS', 'theming', 'github pages']
