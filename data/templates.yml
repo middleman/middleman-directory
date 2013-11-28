@@ -35,6 +35,12 @@
     github: https://github.com/axyz/middleman-zurb-foundation
   tags: [ZURB Foundation SASS]
 -
+  name: middleman-by-lifepillar
+  description: Template using Foundation ≥5 and Font Awesome ≥4, with support for Disqus, Google Analytics, MathJax, and more!
+  links:
+    github: https://github.com/lifepillar/middleman-by-lifepillar
+  tags: ['ZURB Foundation', 'Font Awesome', 'SASS', 'Disqus', 'Analytics', 'MathJax', 'Blog']
+-
   name: Middleman-Foundation
   description: ZURB Foundation in SCSS.
   links:
