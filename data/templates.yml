@@ -149,10 +149,10 @@
     github: https://github.com/headcanon/middleman-bower-template
 -
   name: The Slender (middle) Man
-  description: A bare-bones template featuring simplicity and cleanness with Slim and Stylus on the top of H5BP, also comes with Bower support.
+  description: A bare-bones template featuring simplicity and cleanness with Slim and SASS on the top of H5BP, also comes with Bower support.
   links:
-    github: https://github.com/PaBLoX-CL/slender-middle-man
-  tags: ['slim', 'stylus', 'bower', 'coffeescript']
+    github: https://github.com/PaBLoX-CL/slender-man
+  tags: ['slim', 'SASS', 'bower', 'coffeescript']
 -
   name: middleman_starter
   description: For people who prefer ERB to Haml, and who like BEM, SMACSS, Sass, and Susy. Also comes with a style guide if you're into atomic design.
