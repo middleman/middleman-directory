@@ -169,3 +169,12 @@
   tags:
     - Tooling
     - Assets
+-
+  name: middleman-gibberish
+  description: Password protected senstive web content with javascript only - even on s3!.
+  links:
+    github: https://github.com/ahoward/middleman-gibberish
+  official: false
+  tags:
+    - Tooling
+    - Generator
