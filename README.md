@@ -23,6 +23,6 @@ If you have questions, answers can be found on our [community  forum](http://for
 
 Please, [help support the Middleman team with a donation](https://spb.io/s/4dXbHBorC3).
 
-## Copyright
+## License
 
-Copyright (c) Karl Freeman. [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
+Copyright (c) 2013-2014 Karl Freeman. MIT Licensed, see [LICENSE] for details.
