@@ -178,9 +178,9 @@
   tags:
     - Tooling
     - Generator
-
+-
   name: middleman-bower-bourbon-neat
-  description: Starter template with: Bower, Sass, Bourbon, Neat, Coffeescript, jQuery
+  description: "Starter template with: Bower, Sass, Bourbon, Neat, Coffeescript, jQuery"
   links:
     github: https://github.com/juanghurtado/middleman-bower-bourbon-neat
   official: false
