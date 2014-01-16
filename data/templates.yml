@@ -171,3 +171,11 @@
   links:
     github: http://github.com/techpeace/personal-site-template
   tags: ['ZURB Foundation', 'SASS', 'theming', 'github pages']
+-
+  name: Fuark
+  description: CoffeeScript, Stylus, Autoprefixer, and reasonable project structure.
+  links:
+    github: https://github.com/vast/fuark
+  tags:
+    - coffeescript
+    - stylus
