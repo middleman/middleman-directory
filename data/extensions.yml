@@ -189,3 +189,11 @@
     - Bower
     - Coffeescript
     - jQuery
+-
+  name: middleman-spellcheck
+  description: "Run the aspell spell checker after the assets have been built"
+  links:
+    github: https://github.com/minivan/middleman-spellcheck
+  official: false
+  tags:
+    - Tooling
