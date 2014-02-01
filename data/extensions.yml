@@ -197,3 +197,13 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-alias
+  description: Add alias info to your frontmatter and Middleman will generate SEO friendly redirect pages.
+  links:
+    github: https://github.com/Octo-Labs/middleman-alias
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+
