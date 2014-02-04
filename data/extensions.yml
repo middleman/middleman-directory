@@ -206,4 +206,14 @@
     - original
   tags:
     - Tooling
-
+-
+  name: middleman-automatic-clowncar
+  description: The easiest way to use responsive images in your Middleman site.
+  links:
+    github: https://github.com/Octo-Labs/middleman-automatic-clowncar
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Assets
+    - Generator
