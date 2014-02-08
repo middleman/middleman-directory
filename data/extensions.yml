@@ -217,3 +217,11 @@
     - Tooling
     - Assets
     - Generator
+-
+  name: middleman-php
+  description: Use PHP files in Middleman
+  links:
+    github: https://github.com/lord/middleman-php
+  tags:
+    - Tooling
+    - Assets
