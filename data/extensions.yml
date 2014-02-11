@@ -145,10 +145,10 @@
   tags:
     - Generator
 -
-  name: middleman-middleman-bootstrap-navbar
+  name: middleman-bootstrap-navbar
   description: Easily generate a Twitter Bootstrap navbar
   links:
-    github: https://github.com/krautcomputing/middleman-bootstrap-navbar
+    github: https://github.com/bootstrap-ruby/middleman-bootstrap-navbar
   official: false
   tags:
     - Tooling
