@@ -179,3 +179,9 @@
   tags:
     - coffeescript
     - stylus
+-
+  name: Middleman-blog-bootstrap-template
+  description: Blog starter template ~ Bootswatch theme selector, Bootstrap-scss / FontAwesome / jQuery / Html5shiv with Bower, Slim / SASS / Coffeescript precompilers
+  links:
+    github: https://github.com/biblichor/middleman-blog-bootstrap-template
+  tags: ['bootstrap', 'bower', 'Font Awesome', 'slim', 'coffeescript', 'SASS']
