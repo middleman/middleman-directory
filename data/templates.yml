@@ -185,3 +185,9 @@
   links:
     github: https://github.com/biblichor/middleman-blog-bootstrap-template
   tags: ['bootstrap', 'bower', 'Font Awesome', 'slim', 'coffeescript', 'SASS']
+-
+  name: Thane
+  description: Thane — is a Middleman template, based on HTML5 Boilerplate. It also contains some Bootstrap styles. Thane is intended as a fast and easy way to initiate the process of web-development .
+  links:
+    github: https://github.com/denisfl/thane/
+  tags: ['HTML5 Boilerplate', 'Bootstrap', 'Slim', 'SCSS']
