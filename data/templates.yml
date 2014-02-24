@@ -191,3 +191,9 @@
   links:
     github: https://github.com/denisfl/thane/
   tags: ['HTML5 Boilerplate', 'Bootstrap', 'Slim', 'SCSS']
+-
+  name: Duo Color
+  description: Duo Color — universal template for Middleman. Blog-aware, bootstrap, internationalization, latex, privacy-aware defaults
+  links:
+    github: https://github.com/rriemann/middleman-blog-template-duocolor
+  tags: ['bower', 'bootstrap', 'slim', 'markdown', 'SCSS', 'mobile', 'compass', 'blog']
