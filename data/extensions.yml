@@ -224,4 +224,12 @@
     github: https://github.com/lord/middleman-php
   tags:
     - Tooling
+-
+  name: middleman-ngmin
+  description: Transform AngularJS code in the asset pipeline to be safe for minification.
+  official: false
+  links:
+    github: https://github.com/bhollis/middleman-ngmin
+  tags:
+    - Tooling
     - Assets
