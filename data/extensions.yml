@@ -179,17 +179,6 @@
     - Tooling
     - Generator
 -
-  name: middleman-bower-bourbon-neat
-  description: "Starter template with: Bower, Sass, Bourbon, Neat, Coffeescript, jQuery"
-  links:
-    github: https://github.com/juanghurtado/middleman-bower-bourbon-neat
-  official: false
-  tags:
-    - Sass
-    - Bower
-    - Coffeescript
-    - jQuery
--
   name: middleman-spellcheck
   description: "Run the aspell spell checker after the assets have been built"
   links:
