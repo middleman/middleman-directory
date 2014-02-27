@@ -33,7 +33,7 @@
   description: Middleman Skeleton For Zurb Foundation 5 (SASS version).
   links:
     github: https://github.com/axyz/middleman-zurb-foundation
-  tags: [ZURB Foundation SASS]
+  tags: ['ZURB Foundation', 'SASS', 'bower']
 -
   name: middleman-by-lifepillar
   description: Template using Foundation ≥5 and Font Awesome ≥4, with support for Disqus, Google Analytics, MathJax, and more!
@@ -51,7 +51,7 @@
   description: ZURB Foundation in Compass, SCSS & HAML & following the SMACSS style guide.
   links:
     github: https://github.com/hhg2288/foundation-smacss-middleman
-  tags: []
+  tags: ['ZURB Foundation']
 -
   name: Middleman-Frameless
   description: Basic project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
@@ -70,7 +70,7 @@
   description: Middleman blog template containing ZURB Foundation and sensible default components and templates.
   links:
     github: https://github.com/mattolson/middleman-zurb-template
-  tags: []
+  tags: ['ZURB Foundation'fou]
 -
   name: Sauce
   description: Middleman template with Haml, Compass, CoffeeScript, and DRY file structure.
