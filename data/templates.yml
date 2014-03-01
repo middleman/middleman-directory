@@ -70,7 +70,7 @@
   description: Middleman blog template containing ZURB Foundation and sensible default components and templates.
   links:
     github: https://github.com/mattolson/middleman-zurb-template
-  tags: ['ZURB Foundation'fou]
+  tags: ['ZURB Foundation']
 -
   name: Sauce
   description: Middleman template with Haml, Compass, CoffeeScript, and DRY file structure.
@@ -99,7 +99,7 @@
 -
   name: Middleman-Blog-Frameless
   description: Basic Middleman-Blog project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
-  links:
+  links:F
     github: https://github.com/BryanSchuetz/middleman-blog-frameless
   tags: []
 -
