@@ -99,7 +99,7 @@
 -
   name: Middleman-Blog-Frameless
   description: Basic Middleman-Blog project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
-  links:F
+  links:
     github: https://github.com/BryanSchuetz/middleman-blog-frameless
   tags: []
 -
