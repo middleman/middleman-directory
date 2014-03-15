@@ -208,3 +208,9 @@
     - Bower
     - Coffeescript
     - jQuery
+-
+  name: enchant.js
+  description: Template for enchant.js
+  links:
+    github: https://github.com/ntotani/middleman-enchant.js
+  tags: []
