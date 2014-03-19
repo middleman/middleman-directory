@@ -222,3 +222,11 @@
   tags:
     - Tooling
     - Assets
+-
+  name: middleman-search_engine_sitemap
+  description: Tell search engines which pages are most important in your Middleman site.
+  official: false
+  links:
+    github: https://github.com/Aupajo/middleman-search_engine_sitemap
+  tags:
+    - Generator
