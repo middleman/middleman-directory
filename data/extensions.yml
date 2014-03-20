@@ -230,3 +230,12 @@
     github: https://github.com/Aupajo/middleman-search_engine_sitemap
   tags:
     - Generator
+
+-
+  name: middleman-sitemap
+  description: Generate sitemaps for your Middleman site with options for GZIP and hostname
+  official: false
+  links:
+    github: https://github.com/statonjr/middleman-sitemap
+  tags:
+    - Generator
