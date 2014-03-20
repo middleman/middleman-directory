@@ -230,3 +230,10 @@
     github: https://github.com/Aupajo/middleman-search_engine_sitemap
   tags:
     - Generator
+-
+  name: middleman-cloudflare_purge
+  description: Purge files from your Cloudflare CDN cache.
+  links:
+    github: https://github.com/jmmk/middleman-cloudflare_purge
+  tags:
+    - Deployment
