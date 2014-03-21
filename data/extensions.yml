@@ -239,3 +239,12 @@
     github: https://github.com/statonjr/middleman-sitemap
   tags:
     - Generator
+-
+  name: contentful_middleman
+  description: Load content from the Contentful CMS and let business users/editors manage the content in a Web UI.
+  links:
+    github: https://github.com/contentful/contentful_middleman
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
