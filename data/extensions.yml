@@ -248,3 +248,12 @@
     - original
   tags:
     - Tooling
+
+-
+  name: middleman-meta-tags
+  description: Easy integration of meta tags into your Middleman applications
+  official: false
+  links:
+    github: https://github.com/tiste/middleman-meta-tags
+  tags:
+    - Tooling
