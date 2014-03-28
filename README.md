@@ -25,4 +25,4 @@ Please, [help support the Middleman team with a donation](https://spb.io/s/4dXbH
 
 ## License
 
-Copyright (c) 2013-2014 Karl Freeman. MIT Licensed, see [LICENSE] for details.
+Copyright (c) 2013-2014 Karl Freeman. MIT Licensed, see [LICENSE.md] for details.
