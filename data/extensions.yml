@@ -257,3 +257,13 @@
     github: https://github.com/tiste/middleman-meta-tags
   tags:
     - Tooling
+
+-
+  name: middleman-webp
+  description: Generates WebP alternatives for each image file during build.
+  official: false
+  links:
+    github: https://github.com/iiska/middleman-webp
+  tags:
+    - Tooling
+    - Assets
