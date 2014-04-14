@@ -267,3 +267,12 @@
   tags:
     - Tooling
     - Assets
+
+-
+  name: middleman-ogp
+  description: Adds OpenGraph Helper.
+  official: false
+  links:
+    github: https://github.com/ngs/middleman-ogp
+  tags:
+    - Generator
