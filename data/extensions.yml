@@ -145,6 +145,15 @@
   tags:
     - Generator
 -
+  name: middleman-simple-thumbnailer
+  description: Generate thumbnails of images, by providing resize_to option to image_tag helper.
+  links:
+    github: https://github.com/kubenstein/middleman-simple-thumbnailer
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+-
   name: middleman-bootstrap-navbar
   description: Easily generate a Twitter Bootstrap navbar
   links:
