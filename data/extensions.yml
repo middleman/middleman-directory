@@ -1,4 +1,13 @@
 -
+  name: middleman-fontcustom
+  description: Generate webfont files automatically.
+  links:
+    github: https://github.com/oame/middleman-fontcustom
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+-
   name: middleman-imageoptim
   description: Automatically compress and optimise your imagery during 'middleman build'.
   links:
