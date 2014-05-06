@@ -1,4 +1,13 @@
 -
+  name: middleman-presentation
+  description: Create presentations based on reveal.js and deliver them with middleman
+  links:
+    github: https://github.com/maxmeyer/middleman-presentation
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+-
   name: middleman-fontcustom
   description: Generate webfont files automatically.
   links:
