@@ -153,6 +153,18 @@
   official: false
   tags:
     - Tooling
+    
+    
+-
+  name: middleman-slim-foundation-emberjs-emblemjs
+  description: Base setup for an emberjs application using foundation, emblemjs, and slim.
+  links:
+    github: https://github.com/chrishough/middleman-slim-foundation-emberjs-emblemjs
+  official: false
+  tags:
+    - Tooling
+  
+    
 -
   name: middleman-thumbnailer
   description: Generate thumbnails of images
