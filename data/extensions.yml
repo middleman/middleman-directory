@@ -320,3 +320,12 @@
   tags:
     - Generator
     - Tooling
+-
+  name: middleman-piwik
+  description: Generate a Piwik tracking code.
+  official: false
+  links:
+    github: https://github.com/mscherer/middleman-piwik
+  tags:
+    - Generator
+    - Tooling
