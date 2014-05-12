@@ -329,3 +329,13 @@
   tags:
     - Generator
     - Tooling
+-
+  name: middleman-blog-similar
+  description: An extension for middleman-blog that adds method to lookup similar article.
+  links:
+    github: https://github.com/ngs/middleman-blog-similar
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+    - Tooling
