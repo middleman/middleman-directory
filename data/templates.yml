@@ -214,3 +214,13 @@
   links:
     github: https://github.com/ntotani/middleman-enchant.js
   tags: []
+-
+  name: ConfMan
+  description: Conference Site Template
+  links:
+    github: https://github.com/webBoxio/middleman-confman
+  tags:
+    - CoffeeScript
+    - Sass
+    - Bourbon
+    - Conference
