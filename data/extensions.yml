@@ -153,8 +153,8 @@
   official: false
   tags:
     - Tooling
-    
-    
+
+
 -
   name: middleman-slim-foundation-emberjs-emblemjs
   description: Base setup for an emberjs application using foundation, emblemjs, and slim.
@@ -163,8 +163,8 @@
   official: false
   tags:
     - Tooling
-  
-    
+
+
 -
   name: middleman-thumbnailer
   description: Generate thumbnails of images
@@ -339,3 +339,12 @@
   tags:
     - Generator
     - Tooling
+
+-
+  name: middleman-bitballoon
+  description: Deploy to BitBalloon
+  official: false
+  links:
+    github: https://github.com/BitBalloon/middleman-bitballoon
+  tags:
+    - Deployment
