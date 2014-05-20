@@ -339,7 +339,6 @@
   tags:
     - Generator
     - Tooling
-
 -
   name: middleman-bitballoon
   description: Deploy to BitBalloon
@@ -348,3 +347,11 @@
     github: https://github.com/BitBalloon/middleman-bitballoon
   tags:
     - Deployment
+-
+  name: middleman-title
+  description: Easily set page titles for your website.
+  official: false
+  links:
+    github: https://github.com/jcypret/middleman-title
+  tags:
+    - Tooling
