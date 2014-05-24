@@ -355,3 +355,11 @@
     github: https://github.com/jcypret/middleman-title
   tags:
     - Tooling
+-
+  name: middleman-build-info
+  description: Incremental build information for Middleman.
+  official: false
+  links:
+    github: https://github.com/mcavallo/middleman-build-info
+  tags:
+    - Tooling
