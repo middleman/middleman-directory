@@ -1,4 +1,13 @@
 -
+  name: middleman-settings
+  description: Use config files to manage your settings in your app with multi environments
+  links:
+    github: https://github.com/gregory/middleman-settings
+  supported_api_versions:
+    - original
+  tags:
+    - Config, Settings, Environments
+-
   name: middleman-presentation
   description: Create presentations based on reveal.js and deliver them with middleman
   links:
