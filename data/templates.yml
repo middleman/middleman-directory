@@ -230,3 +230,9 @@
     - Sass
     - Bourbon
     - Conference
+-
+  name: Franklin
+  description: Build online books with Middleman. Comes with a selection of pre-built themes.
+  links:
+    github: https://github.com/bryanbraun/franklin
+  tags: ['ebook']
