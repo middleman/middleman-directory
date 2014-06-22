@@ -372,3 +372,12 @@
     github: https://github.com/mcavallo/middleman-build-info
   tags:
     - Tooling
+-
+  name: middleman-inliner
+  description: Inline JS/CSS for frontend performance.
+  official: false
+  links:
+    github: https://github.com/kaiinui/middleman-inliner
+  tags:
+    - Optimization
+    - Assets
