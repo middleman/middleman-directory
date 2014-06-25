@@ -381,3 +381,12 @@
   tags:
     - Optimization
     - Assets
+-
+  name: middleman-navtree
+  description: Automatically generate navigation trees and menus in your middleman site.
+  official: false
+  links:
+    github: https://github.com/bryanbraun/middleman-navtree
+  tags:
+    - Generator
+

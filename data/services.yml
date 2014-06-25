@@ -5,3 +5,10 @@
     site: http://fjords.cc
   tags:
     - Paid
+-
+  name: Bitbooks.cc
+  description: Build online books directly from Github.
+  links:
+    site: http://bitbooks.cc
+  tags:
+    - Free
