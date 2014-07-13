@@ -236,3 +236,11 @@
   links:
     github: https://github.com/bryanbraun/franklin
   tags: ['ebook']
+-
+  name: middleman-static-d3
+  description: Create d3.js visualizations in a single stand-alone HTML file.
+  links:
+    github: https://github.com/coldnebo/middleman-static-d3
+  tags:
+    - d3js
+    - Visualization
