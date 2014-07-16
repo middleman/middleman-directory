@@ -389,4 +389,11 @@
     github: https://github.com/bryanbraun/middleman-navtree
   tags:
     - Generator
-
+-
+  name: middleman-cdn
+  description: Automatic invalidation of CloudFlare and Amazon CloudFront CDN cache.
+  official: false
+  links:
+    github: https://github.com/leighmcculloch/middleman-cdn
+  tags:
+    - Deployment
