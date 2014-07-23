@@ -244,3 +244,21 @@
   tags:
     - d3js
     - Visualization
+-
+  name: Middleman Startaê
+  description: A starter template ready to run on Heroku. Comes with several helpers, partials and a nice basic structure to the HTML5, Sass and CoffeeScript. Resuming, a template using all the modern tools.
+  links:
+    github: https://github.com/startae/middleman-startae
+  tags:
+    - Heroku
+    - Livereload
+    - Bower
+    - Sass
+    - Bourbon
+    - Susy
+    - Slim
+    - CoffeeScript
+    - jQuery
+    - Faker
+    - Polyfill
+    - Analytics
