@@ -12,7 +12,7 @@
   tags: [Presentation]
 -
   name: Slimmer
-  description: Starter Template ~ Slim, SASS, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
+  description: Starter Template ~ Slim, Sass, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
   links:
     github: https://github.com/polymatt/slimmer
   tags: ['slim', 'compass', 'coffeescript', 'bower', 'github pages', 'sublime text']
@@ -30,16 +30,16 @@
   tags: []
 -
   name: Middleman-Zurb-Foundation
-  description: Middleman Skeleton For Zurb Foundation 5 (SASS version).
+  description: Middleman Skeleton For Zurb Foundation 5 (Sass version).
   links:
     github: https://github.com/axyz/middleman-zurb-foundation
-  tags: ['ZURB Foundation', 'SASS', 'bower']
+  tags: ['ZURB Foundation', 'Sass', 'bower']
 -
   name: middleman-by-lifepillar
   description: Template using Foundation ≥5 and Font Awesome ≥4, with support for Disqus, Google Analytics, MathJax, and more!
   links:
     github: https://github.com/lifepillar/middleman-by-lifepillar
-  tags: ['ZURB Foundation', 'Font Awesome', 'SASS', 'Disqus', 'Analytics', 'MathJax', 'Blog']
+  tags: ['ZURB Foundation', 'Font Awesome', 'Sass', 'Disqus', 'Analytics', 'MathJax', 'Blog']
 -
   name: Middleman-Foundation
   description: ZURB Foundation in SCSS.
@@ -51,7 +51,7 @@
   description: Foundation 5, SCSS, HAML and Coffee Script. Modular structure for css/scss files. Rails like assets structure.
   links:
   github: hhttps://github.com/RalphAtHamburg/middleman-foundation5-basic
-  tags: ['ZURB Foundation', 'Foundation 5', 'SASS', 'HAML', 'CoffeeScript']
+  tags: ['ZURB Foundation', 'Foundation 5', 'Sass', 'HAML', 'CoffeeScript']
 -
   name: Middleman-Foundation-SMACSS
   description: ZURB Foundation in Compass, SCSS & HAML & following the SMACSS style guide.
@@ -60,7 +60,7 @@
   tags: ['ZURB Foundation']
 -
   name: Middleman-Frameless
-  description: Basic project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
+  description: Basic project template with adaptive Sass grid from <a href="http://framelessgrid.com/">Frameless</a>.
   links:
     github: https://github.com/BryanSchuetz/middleman-frameless
   tags: []
@@ -104,19 +104,19 @@
     - mobile
 -
   name: Middleman-Blog-Frameless
-  description: Basic Middleman-Blog project template with adaptive SASS grid from <a href="http://framelessgrid.com/">Frameless</a>.
+  description: Basic Middleman-Blog project template with adaptive Sass grid from <a href="http://framelessgrid.com/">Frameless</a>.
   links:
     github: https://github.com/BryanSchuetz/middleman-blog-frameless
   tags: []
 -
-  name: Middleman setup with Haml, SASS and Coffeescript
+  name: Middleman setup with Haml, Sass and Coffeescript
   description:
   links:
     github: https://github.com/pixelsonly/middleman-hamlsasscoffee
   tags: []
 -
   name: middleman-impress
-  description: Middleman setup with Haml, SASS and impress.js* for HTML presentation
+  description: Middleman setup with Haml, Sass and impress.js* for HTML presentation
   links:
     github: https://github.com/blackbiron/middleman-impress
   tags: []
@@ -155,10 +155,10 @@
     github: https://github.com/headcanon/middleman-bower-template
 -
   name: The Slender (middle) Man
-  description: A bare-bones template featuring simplicity and cleanness with Slim and SASS on the top of H5BP, also comes with Bower support.
+  description: A bare-bones template featuring simplicity and cleanness with Slim and Sass on the top of H5BP, also comes with Bower support.
   links:
     github: https://github.com/PaBLoX-CL/slender-man
-  tags: ['slim', 'SASS', 'bower', 'coffeescript']
+  tags: ['slim', 'Sass', 'bower', 'coffeescript']
 -
   name: middleman_starter
   description: For people who prefer ERB to Haml, and who like BEM, SMACSS, Sass, and Susy. Also comes with a style guide if you're into atomic design.
@@ -176,7 +176,7 @@
   description: A personal website using Zurb Foundation. Features a portfolio, blog, easy configuration-based setup, and Sass-based theming.
   links:
     github: http://github.com/techpeace/personal-site-template
-  tags: ['ZURB Foundation', 'SASS', 'theming', 'github pages']
+  tags: ['ZURB Foundation', 'Sass', 'theming', 'github pages']
 -
   name: Fuark
   description: CoffeeScript, Stylus, Autoprefixer, and reasonable project structure.
@@ -187,10 +187,10 @@
     - stylus
 -
   name: Middleman-blog-bootstrap-template
-  description: Blog starter template ~ Bootswatch theme selector, Bootstrap-scss / FontAwesome / jQuery / Html5shiv with Bower, Slim / SASS / Coffeescript precompilers
+  description: Blog starter template ~ Bootswatch theme selector, Bootstrap-scss / FontAwesome / jQuery / Html5shiv with Bower, Slim / Sass / Coffeescript precompilers
   links:
     github: https://github.com/biblichor/middleman-blog-bootstrap-template
-  tags: ['bootstrap', 'bower', 'Font Awesome', 'slim', 'coffeescript', 'SASS']
+  tags: ['bootstrap', 'bower', 'Font Awesome', 'slim', 'coffeescript', 'Sass']
 -
   name: Thane
   description: Thane — is a Middleman template, based on HTML5 Boilerplate. It also contains some Bootstrap styles. Thane is intended as a fast and easy way to initiate the process of web-development .
