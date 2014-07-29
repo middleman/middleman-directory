@@ -391,7 +391,7 @@
     - Generator
 -
   name: middleman-cdn
-  description: Automatic invalidation of CloudFlare and Amazon CloudFront CDN cache.
+  description: Automatic invalidation of CloudFlare, MaxCDN, AWS CloudFront, Fastly and Rackspace CDN cache.
   official: false
   links:
     github: https://github.com/leighmcculloch/middleman-cdn
