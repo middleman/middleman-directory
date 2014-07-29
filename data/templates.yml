@@ -50,7 +50,7 @@
   name: Middleman-Foundation5-Basic
   description: Foundation 5, SCSS, HAML and Coffee Script. Modular structure for css/scss files. Rails like assets structure.
   links:
-    github: hhttps://github.com/RalphAtHamburg/middleman-foundation5-basic
+    github: https://github.com/RalphAtHamburg/middleman-foundation5-basic
   tags: ['ZURB Foundation', 'Foundation 5', 'SASS', 'HAML', 'CoffeeScript']
 -
   name: Middleman-Foundation-SMACSS
