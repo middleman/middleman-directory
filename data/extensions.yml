@@ -1,4 +1,13 @@
 -
+  name: middleman-aws
+  description: Simple set of rake tasks to build and deploy to AWS using s3_sync and cloudfront invalidation extensions.
+  links:
+    github: https://github.com/alienfast/middleman-aws
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+-
   name: middleman-settings
   description: Use config files to manage your settings in your app with multi environments
   links:
