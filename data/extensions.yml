@@ -406,3 +406,11 @@
     github: https://github.com/leighmcculloch/middleman-cdn
   tags:
     - Deployment
+-
+  name: middleman-disqus
+  description: "A Middleman extension to integrate Disqus into your site, supporting Disqus configuration variables and comment counts."
+  official: false
+  links:
+    github: https://github.com/simonrice/middleman-disqus
+  tags:
+    - Generator
