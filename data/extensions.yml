@@ -43,6 +43,7 @@
     - original
   tags:
     - Tooling
+    - Optimization
 -
   name: middleman-blog-drafts
   description: An addon for middleman-blog that simplifies draft posts creation and publishing.
@@ -414,3 +415,14 @@
     github: https://github.com/simonrice/middleman-disqus
   tags:
     - Generator
+-
+  name: middleman-minify-html
+  description: Minifies whitespace around HTML via Htmlcompressor.
+  links:
+    github: https://github.com/middleman/middleman-minify-html
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Official
+    - Optimization
