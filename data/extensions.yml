@@ -426,3 +426,13 @@
     - Tooling
     - Official
     - Optimization
+-
+  name: middleman-knockoutjs
+  description: Adds KnockoutJS assets to a Middleman project. Also includes support for Jasmine unit testing.
+  links:
+    github: https://github.com/bnadlerjr/middleman-knockoutjs
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+    - Tooling
