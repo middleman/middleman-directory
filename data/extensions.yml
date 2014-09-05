@@ -436,3 +436,11 @@
   tags:
     - Generator
     - Tooling
+-
+  name: middleman-inline-style
+  description: Inline all css into style attributes. Useful for email templates.
+  official: false
+  links:
+    github: https://github.com/trenton42/middleman-inline-style
+  tags:
+    - Tooling
