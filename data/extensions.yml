@@ -444,3 +444,11 @@
     github: https://github.com/trenton42/middleman-inline-style
   tags:
     - Tooling
+-
+  name: middleman-typescript
+  description: TypeScript for Middleman.
+  official: false
+  links:
+    github: https://github.com/okayamarb/middleman-typescript
+  tags:
+    - Tooling
