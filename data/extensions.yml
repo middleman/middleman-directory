@@ -452,3 +452,11 @@
     github: https://github.com/okayamarb/middleman-typescript
   tags:
     - Tooling
+-
+  name: middleman-breadcrumbs
+  description: Breadcrumbs helper for Middleman.
+  official: false
+  links:
+    github: https://github.com/marnen/middleman-breadcrumbs
+  tags:
+    - Navigation
