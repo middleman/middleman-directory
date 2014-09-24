@@ -8,6 +8,15 @@
   tags:
     - Deployment
 -
+  name: middleman-build-reporter
+  description: Surface build-time and version details in your Middleman build.
+  links:
+    github: https://github.com/mdb/middleman-build-reporter
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling, Operations, Deployment, Environments
+-
   name: middleman-settings
   description: Use config files to manage your settings in your app with multi environments
   links:
