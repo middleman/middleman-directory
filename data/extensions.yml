@@ -181,8 +181,16 @@
   official: false
   tags:
     - Tooling
-
-
+    - Ember
+-
+  name: Emberman
+  description: "(Middleman + Ember)'s love child. Adds Ember, Ember Data and Handlebars to your project, pre-compiles Handlebars templates, uses production versions and ignores ingredient assets on build."
+  links:
+    github: https://github.com/minusfive/emberman
+  official: false
+  tags:
+    - Tooling
+    - Ember
 -
   name: middleman-slim-foundation-emberjs-emblemjs
   description: Base setup for an emberjs application using foundation, emblemjs, and slim.
@@ -191,7 +199,7 @@
   official: false
   tags:
     - Tooling
-
+    - Ember
 
 -
   name: middleman-thumbnailer
