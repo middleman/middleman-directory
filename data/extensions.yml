@@ -15,7 +15,10 @@
   supported_api_versions:
     - original
   tags:
-    - Tooling, Operations, Deployment, Environments
+    - Tooling
+    - Operations
+    - Deployment
+    - Environments
 -
   name: middleman-settings
   description: Use config files to manage your settings in your app with multi environments
@@ -24,7 +27,9 @@
   supported_api_versions:
     - original
   tags:
-    - Config, Settings, Environments
+    - Config
+    - Settings
+    - Environments
 -
   name: middleman-presentation
   description: Create presentations based on reveal.js and deliver them with middleman
