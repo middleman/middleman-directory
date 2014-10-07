@@ -268,3 +268,9 @@
   links:
     github: https://github.com/toydestroyer/middleman-mvcss-essential
   tags: [MVCSS, SASS, Normalize.css, AutoPrefixer, LiveReload, Essential]
+-
+  name: middleman-bss
+  description: A Middleman starter theme with Twitter Bootstrap, Slim templates, and SCSS.
+  links:
+    github: https://github.com/hello-jason/middleman-bss.git
+  tags: ['bootstrap', 'SCSS', 'Slim', 'Font Awesome']
