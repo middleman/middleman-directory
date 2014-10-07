@@ -273,4 +273,8 @@
   description: A Middleman starter theme with Twitter Bootstrap, Slim templates, and SCSS.
   links:
     github: https://github.com/hello-jason/middleman-bss.git
-  tags: ['bootstrap', 'SCSS', 'Slim', 'Font Awesome']
+  tags:
+    - Bootstrap
+    - SCSS
+    - Slim
+    - Font Awesome
