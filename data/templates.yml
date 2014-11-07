@@ -278,3 +278,13 @@
     - SCSS
     - Slim
     - Font Awesome
+-
+  name: middleman-middlemac
+  description: A project template and extension for creating proper Mac OS X .help files for applications. Works on any OS that Middleman supports.
+  links:
+    github: https://github.com/balthisar/middlemac
+  tags:
+    - Mac
+    - XCode
+    - Cocoa
+    - Help Files
