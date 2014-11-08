@@ -267,7 +267,13 @@
   description: Project template for Middleman with MVCSS as essential CSS architecture.
   links:
     github: https://github.com/toydestroyer/middleman-mvcss-essential
-  tags: [MVCSS, SASS, Normalize.css, AutoPrefixer, LiveReload, Essential]
+  tags: [mvcss, sass, normalize.css, autoprefixer, livereload, essential]
+-
+  name: HTML5 Boilerplate & MVCSS
+  description: Project template for Middleman with MVCSS as CSS architecture and HTML5 Boilerplate.
+  links:
+    github: https://github.com/toydestroyer/middleman-mvcss-html5
+  tags: [mvcss, sass, html5, h5bp, normalize.css, autoprefixer, livereload]
 -
   name: middleman-bss
   description: A Middleman starter theme with Twitter Bootstrap, Slim templates, and SCSS.
