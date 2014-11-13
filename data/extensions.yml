@@ -1,4 +1,13 @@
 -
+  name: bh · Bootstrap Helpers
+  description: "Include Bootstrap components in your Middleman views with short, documented, tested helpers. Supports alert boxes, modals, panels, navs, navbars, progress bars, dropdowns, icons, buttons and links."
+  links:
+    github: https://github.com/Fullscreen/bh
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+-
   name: middleman-aws
   description: Simple set of rake tasks to build and deploy to AWS using s3_sync and cloudfront invalidation extensions.
   links:
