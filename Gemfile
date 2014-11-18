@@ -2,6 +2,8 @@ source "https://rubygems.org"
 
 gem 'middleman', "~> 3.3.0"
 gem 'zurb-foundation', '~> 4.0'
+gem 'bourbon', '~> 4.0.2'
+gem 'neat', '~> 1.7.0'
 
 gem 'middleman-ember', '~> 0.1.1'
 gem "handlebars-source", "1.0.0.rc4"

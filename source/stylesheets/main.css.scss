@@ -9,7 +9,7 @@ $midBrown: #ECC561;
 $darkBrown: #655740;
 $navy: #446184;
 
-/* Bootstrap Variables
+/* Bootstrap Variable/
 --------------------------------------------------- */
 $copy-color: $darkBrown;
 $linkColor: $navy;
@@ -18,6 +18,8 @@ $iconWhiteSpritePath: '';
 
 /* Imports
 --------------------------------------------------- */
+@import "bourbon";
+@import "neat";
 @import "compass";
 @import "normalize";
 
