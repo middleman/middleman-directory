@@ -3,11 +3,11 @@
 
 /* Colors Variables
 --------------------------------------------------- */
-$xLightBrown: #efe8d5;
-$lightBrown: #e1d7be;
-$midBrown: #957642;
+$xLightBrown: white;
+$lightBrown: white;
+$midBrown: #ECC561;
 $darkBrown: #655740;
-$navy: #002b36;
+$navy: #446184;
 
 /* Bootstrap Variables
 --------------------------------------------------- */
@@ -68,16 +68,21 @@ $sub-nav-active-padding: 5px 9px;
 
 /* Main
 --------------------------------------------------- */
-html {
-  background: $lightBrown;
-}
-
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  background: $lightBrown;
   margin: 0; 
   padding-bottom: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, span, small, em, strong, a, input {
+  font-family: "Lato", helvetica, sans-serif;
 }
 
 hr {
@@ -171,8 +176,7 @@ hr {
 }
 
 .list-container {
-  border-top: 1px solid $lightBrown;
-  background: $lightBrown image-url("main.bg.png") repeat center top;
+  border-top: 1px solid #DDD;
   @include border-radius(4px);
   position: relative;
 
@@ -204,7 +208,6 @@ hr {
         margin-bottom: 0.25em;
         line-height: 1;
         color: $navy;
-        // text-transform: capitalize;
 
         a {
           text-decoration: none;
