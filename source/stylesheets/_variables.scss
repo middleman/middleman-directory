@@ -1,0 +1,34 @@
+/* Global Nav
+--------------------------------------------------- */
+$global-nav-height: em(64);
+$global-nav-link-color: white;
+$global-nav-link-hover-color: rgba($global-nav-link-color, 0.75);
+
+/* Middleman Colors
+--------------------------------------------------- */
+$golden-yellow: #ECC561;
+$saturated-blue: #4280CA;
+$navy: #446184;
+$slate-gray: #8990A1;
+$translucent-gray: rgba(black, 0.25);
+$washed-out-gray: #F9F9F8;
+
+/* Colors Variables
+--------------------------------------------------- */
+$xLightBrown: white;
+$lightBrown: white;
+$midBrown: #ECC561;
+$darkBrown: #655740;
+
+/* Font Size
+--------------------------------------------------- */
+$base-font-size: 1em;
+$h5-font-size: $base-font-size * 1.15;
+
+/* Font Weight
+--------------------------------------------------- */
+$font-weight-bold: 700;
+
+/* Other Size
+--------------------------------------------------- */
+$base-border-radius: 3px;

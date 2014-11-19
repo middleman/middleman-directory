@@ -1,14 +1,6 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
-/* Colors Variables
---------------------------------------------------- */
-$xLightBrown: white;
-$lightBrown: white;
-$midBrown: #ECC561;
-$darkBrown: #655740;
-$navy: #446184;
-
 /* Bootstrap Variable/
 --------------------------------------------------- */
 $copy-color: $darkBrown;
@@ -22,6 +14,8 @@ $iconWhiteSpritePath: '';
 @import "neat";
 @import "compass";
 @import "normalize";
+@import "variables";
+@import "global-nav";
 
 $anchor-font-color: $navy;
 $anchor-font-color-hover: black;
@@ -307,3 +301,18 @@ span.tip-right {
 
 $fontAwesomePath: "./font-awesome";
 @import "font-awesome/font-awesome";
+
+
+/*    layout 
+--------------------------------------------------- */
+
+.wrap-container {
+  @include outer-container;
+  padding: 0 $gutter;
+}
+
+.body-content-container {
+  padding-top: 2em;
+  margin-bottom: 4em;
+  position: relative;
+}
