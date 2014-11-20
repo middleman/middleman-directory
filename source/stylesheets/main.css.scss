@@ -1,21 +1,16 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
-/* Bootstrap Variable/
---------------------------------------------------- */
-$copy-color: $darkBrown;
-$linkColor: $navy;
-$iconSpritePath: '';
-$iconWhiteSpritePath: '';
-
 /* Imports
 --------------------------------------------------- */
 @import "bourbon";
 @import "neat";
+@import "mixins/icon";
 @import "compass";
 @import "normalize";
 @import "variables";
 @import "global-nav";
+@import "footer";
 
 $anchor-font-color: $navy;
 $anchor-font-color-hover: black;
@@ -68,7 +63,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   margin: 0; 
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 h1,
@@ -267,27 +262,6 @@ hr {
 
 }
 
-.footer {
-  margin-top: 20px;
-  color: tint($navy, 25);
-  font-size: 13px;
-
-  .copyright {
-    float:left;
-    display: inline;
-  }
-
-  .fork {
-    float: right;
-    display: inline;
-  }
-
-  a {
-    color: tint($navy, 25);
-  }
-
-}
-
 /*      Typography
 --------------------------------------------------- */
 span.tip-right {
@@ -303,7 +277,7 @@ $fontAwesomePath: "./font-awesome";
 @import "font-awesome/font-awesome";
 
 
-/*    layout 
+/*    layout
 --------------------------------------------------- */
 
 .wrap-container {

@@ -4,6 +4,14 @@ $global-nav-height: em(64);
 $global-nav-link-color: white;
 $global-nav-link-hover-color: rgba($global-nav-link-color, 0.75);
 
+/* Neat Breakpoints
+--------------------------------------------------- */
+$medium-screen: em(640);
+$large-screen: em(860);
+
+$medium-screen-up: new-breakpoint(min-width $medium-screen 4);
+$large-screen-up: new-breakpoint(min-width $large-screen 8);
+
 /* Middleman Colors
 --------------------------------------------------- */
 $golden-yellow: #ECC561;
@@ -19,6 +27,13 @@ $xLightBrown: white;
 $lightBrown: white;
 $midBrown: #ECC561;
 $darkBrown: #655740;
+$blue: #477DCA;
+$dark-gray: #4A4E56;
+$medium-gray: #999;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
 
 /* Font Size
 --------------------------------------------------- */
@@ -28,7 +43,28 @@ $h5-font-size: $base-font-size * 1.15;
 /* Font Weight
 --------------------------------------------------- */
 $font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-weight-normal: 400;
+$font-weight-light: 200;
 
 /* Other Size
 --------------------------------------------------- */
 $base-border-radius: 3px;
+
+/* Footer Variables
+--------------------------------------------------- */
+$footer-link-color: $medium-gray;
+$footer-link-hover-color: darken($footer-link-color, 10);
+$base-footer-color: $washed-out-gray;
+
+/* Icon Fonts
+--------------------------------------------------- */
+$github-icon: "\f09b";
+$twitter-icon: "\f099";
+
+/* Bootstrap Variable
+--------------------------------------------------- */
+$copy-color: $darkBrown;
+$linkColor: $navy;
+$iconSpritePath: '';
+$iconWhiteSpritePath: '';
