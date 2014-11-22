@@ -294,3 +294,14 @@
     - XCode
     - Cocoa
     - Help Files
+-
+  name: Drops
+  description: A blog template for Middleman which lets you start blogging immediately. Supports Heroku deployment, sitemap, Atom feed, Google Analytics, responsive layout and syntax highlighting.
+  links:
+    github: https://github.com/5t111111/middleman-blog-drops-template
+  tags:
+    - Blog
+    - Heroku
+    - SCSS
+    - Slim
+    - Font Awesome
