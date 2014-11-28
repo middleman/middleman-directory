@@ -1,4 +1,10 @@
 -
+  name: middleman-backbone-react
+  description: Simple template using React with Backbone for easy API integration. Includes Backbone, React, Coffeescript, Slim, Bootstrap, Backbone React Component, and Bower.
+  links:
+    github: https://github.com/jbhatab/middleman-backbone-react-template
+  tags: ['react', 'backbone', 'sass', 'bower', 'coffeescript', 'slim', 'api']
+-
   name: middleman-casper
   description: Casper theme (Ghost) for Middleman-Blog.
   links:
