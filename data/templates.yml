@@ -311,3 +311,12 @@
     - SCSS
     - Slim
     - Font Awesome
+-
+  name: middleman-haml-heroku
+  description: A Middleman HAML, SASS, production ready Heroku Boilerplate Template.
+  links:
+    github: https://github.com/austinlchang/middleman-haml-heroku
+  tags:
+    - HAML
+    - SCSS
+    - Heroku
