@@ -491,3 +491,11 @@
     github: https://github.com/marnen/middleman-breadcrumbs
   tags:
     - Navigation
+-
+  name: statistrano
+  description: Deploy any static site via rsync as versioned releases or feature branches.
+  official: false
+  links:
+    github: https://github.com/mailchimp/statistrano
+  tags:
+    - Deployment
