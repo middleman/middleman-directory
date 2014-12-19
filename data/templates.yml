@@ -172,12 +172,6 @@
     github: https://github.com/tombryan/middleman_starter
   tags: ['mobile first']
 -
-  name: Middleman-Bootstrap-Bower
-  description: Bootstrap + Middleman + Bower template.
-  links:
-    github: https://github.com/razorfly/middleman-bootstrap-template
-  tags: ['bootstrap', 'bower', 'markdown']
--
   name: Personal Site Template
   description: A personal website using Zurb Foundation. Features a portfolio, blog, easy configuration-based setup, and Sass-based theming.
   links:
