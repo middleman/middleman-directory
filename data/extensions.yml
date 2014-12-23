@@ -1,4 +1,16 @@
 -
+  name: liquid-bourbon-middleman
+  description: Use Middleman static site generator with Bourbon and Liquid templates out of the box.
+  links:
+    github: https://github.com/Palmaswell/liquid-bourbon-middleman
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Operations
+    - Deployment
+    - Environments
+-
   name: bh · Bootstrap Helpers
   description: "Include Bootstrap components in your Middleman views with short, documented, tested helpers. Supports alert boxes, modals, panels, navs, navbars, progress bars, dropdowns, icons, buttons and links."
   links:
