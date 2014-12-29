@@ -511,3 +511,16 @@
     github: https://github.com/mailchimp/statistrano
   tags:
     - Deployment
+-
+  name: Proteus Middleman
+  description: Static site starter kit from your friends at thoughtbot
+  official: false
+  links:
+    github: https://github.com/thoughtbot/proteus-middleman
+  tags:
+    - Sass
+    - Bourbon
+    - Haml
+    - Github Pages
+    - Livereload
+    - Deploy
