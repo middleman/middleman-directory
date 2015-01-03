@@ -1,6 +1,6 @@
 # Middleman Directory
 
-These are the source files that power the [middleman directory](http://middlemanapp.com/),
+These are the source files that power the [middleman directory](https://middlemanapp.com/),
 a [middleman](https://github.com/middleman/middleman) powered static page.
 
 Middleman is ever-vigilant against tag-soup, unreadable CSS and repetition. He stands-watch
