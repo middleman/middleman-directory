@@ -524,3 +524,13 @@
     - Github Pages
     - Livereload
     - Deploy
+-
+  name: middleman-protect-emails
+  description: Email link protection and obfuscation
+  official: false
+  links:
+    github: https://github.com/amsardesai/middleman-protect-emails
+  tags:
+    - Email
+    - Security
+    
