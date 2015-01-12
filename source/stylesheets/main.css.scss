@@ -176,6 +176,13 @@ hr {
   @include border-radius(4px);
   position: relative;
 
+  .github-fork-ribbon-wraper {
+
+    .github-fork-ribbon {
+
+    }
+  }
+
   .sub-nav {
     margin: 10px 15px 0 15px;
     padding-bottom: 5px;
@@ -298,7 +305,50 @@ span.tip-right {
   line-height: 0;
 }
 
-@import "_libs/github-fork-ribbon";
-
 $fontAwesomePath: "./font-awesome";
 @import "font-awesome/font-awesome";
+
+
+/*      New Github Ribbon
+--------------------------------------------------- */
+
+.trap.ribbon-wrap {
+  position: absolute;
+  right: -40px;
+  top: 45px;
+  width: 200px;
+  transform: rotate(45deg);
+  border-color: #a00;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #a00;
+  -webkit-box-shadow:  0px 6px 5px -5px rgba(0,0,0,0.5);
+  box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.5);
+  z-index: 999;
+  .trap-ribbon {
+    position: absolute;
+    top: 3px;
+    left: -30px;
+    border-width: 0 0 1px 0;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.7);
+    width: 200px;
+    text-align: center;
+    a {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        width: 140px;
+        line-height: 20px;
+        display: inline-block;
+        border-width: 1px 0 0 0;
+        border-style: dotted;
+        border-color: rgba(255, 255, 255, 0.7);
+        overflow: hidden;
+    }
+  }
+}
