@@ -310,12 +310,13 @@ $fontAwesomePath: "./font-awesome";
   right: -40px;
   top: 45px;
   width: 200px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   border-color: #a00;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-bottom: 30px solid #a00;
-  -webkit-box-shadow:  0px 6px 5px -5px rgba(0,0,0,0.5);
   box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.5);
   z-index: 999;
   .trap-ribbon {
