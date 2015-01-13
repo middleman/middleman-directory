@@ -534,3 +534,12 @@
     - Email
     - Security
     
+-
+  name: Mail2FrontMatter
+  description: allows you to email updates to your blog
+  official: false
+  links:
+    github: https://github.com/whistlerbrk/mail2frontmatter
+  tags:
+    - Email
+    
