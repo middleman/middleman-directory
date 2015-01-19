@@ -533,7 +533,7 @@
   tags:
     - Email
     - Security
-    
+
 -
   name: Mail2FrontMatter
   description: allows you to email updates to your blog
@@ -542,4 +542,11 @@
     github: https://github.com/whistlerbrk/mail2frontmatter
   tags:
     - Email
-    
+-
+  name: middleman-patterns
+  description: An implementation of Pattern Lab for Middleman
+  official: false
+  links:
+    github: https://github.com/beardedstudio/middleman-patterns
+  tags:
+    - Tooling
