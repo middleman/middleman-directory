@@ -1,4 +1,10 @@
 -
+  name: Snappy
+  description: Super fast prototyping for Middleman. Foundation, HAML, SASS, CoffeeScript, Capistrano and more.
+  links:
+    github: https://github.com/AdamskiFTW/snappy
+  tags: ['foundation', 'haml', 'sass', 'coffeescript', 'font awesome', 'bower', 'imageoptim', 'capistrano']
+-
   name: middleman-backbone-react
   description: Simple template using React with Backbone for easy API integration. Includes Backbone, React, Coffeescript, Slim, Bootstrap, Backbone React Component, and Bower.
   links:
