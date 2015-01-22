@@ -2,7 +2,7 @@
   name: Snappy
   description: Super fast prototyping for Middleman. Foundation, HAML, SASS, CoffeeScript, Capistrano and more.
   links:
-    github: https://github.com/AdamskiFTW/snappy
+    github: https://github.com/corewebdesign/snappy
   tags: ['foundation', 'haml', 'sass', 'coffeescript', 'font awesome', 'bower', 'imageoptim', 'capistrano']
 -
   name: middleman-backbone-react
