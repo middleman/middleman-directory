@@ -117,7 +117,7 @@
     - Generator
 -
   name: middleman-vcard
-  description: A Middleman extension to generate VCards and provide useful helpers to work with..
+  description: A Middleman extension to generate VCards and useful helpers to work with..
   links:
     github: https://github.com/alem0lars/middleman-vcard
   supported_api_versions:
