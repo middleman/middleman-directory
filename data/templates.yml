@@ -91,10 +91,17 @@
   tags: ['ZURB Foundation']
 -
   name: Sauce
-  description: Middleman template with Haml, Compass, CoffeeScript, and DRY file structure.
+  description: Minimal, components-based Middleman template.
   links:
     github: https://github.com/nikiliu/sauce
-  tags: []
+  tags:
+    - Haml
+    - Sass
+    - CoffeeScript
+    - Autoprefixer
+    - Normalize
+    - Livereload
+    - GitHub Pages
 -
   name: Single Page with Bourbon
   description: Good for a <a href="http://timbreapp.com">single page</a> site. Also integrates <a href="http://bourbon.io">Bourbon</a>
