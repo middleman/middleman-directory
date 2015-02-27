@@ -559,3 +559,14 @@
     github: https://github.com/beardedstudio/middleman-patterns
   tags:
     - Tooling
+-
+  name: middleman-pry
+  description: >
+    Replaces Middleman's built-in console with
+    <a href='http://pryrepl.org/'>Pry</a>, à la
+    <a href='https://github.com/rweng/pry-rails'>pry-rails</a>.
+  links:
+    github: https://github.com/AndrewKvalheim/middleman-pry/
+  official: no
+  tags:
+    - Tooling
