@@ -579,3 +579,12 @@
   official: no
   tags:
     - Tooling
+-
+  name: capistrano-middleman
+  description: Deploy a middleman using capistrano
+  links:
+    github: https://github.com/fedux-org/capistrano-middleman
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
