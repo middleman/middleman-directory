@@ -101,7 +101,7 @@
   name: middleman-deploy
   description: Deploy a middleman built site over rsync, ftp, sftp, or git (e.g. gh-pages on github).
   links:
-    github: https://github.com/tvaughan/middleman-deploy
+    github: https://github.com/middleman-contrib/middleman-deploy
   supported_api_versions:
     - original
   tags:
@@ -174,7 +174,7 @@
   name: middleman-sync
   description: Synchronise your Middleman build to S3 and more.
   links:
-    github: https://github.com/karlfreeman/middleman-sync
+    github: https://github.com/middleman-contrib/middleman-sync
   supported_api_versions:
     - original
   tags:
