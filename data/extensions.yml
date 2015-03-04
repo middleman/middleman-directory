@@ -53,9 +53,9 @@
     - Environments
 -
   name: middleman-presentation
-  description: Create presentations based on reveal.js and deliver them with middleman
+  description: Helps you to build wonderful presentations based on HTML and JavaScript. It is powered by middleman and reveal.js
   links:
-    github: https://github.com/maxmeyer/middleman-presentation
+    github: https://github.com/fedux-org/middleman-presentation
   supported_api_versions:
     - original
   tags:
@@ -101,7 +101,7 @@
   name: middleman-deploy
   description: Deploy a middleman built site over rsync, ftp, sftp, or git (e.g. gh-pages on github).
   links:
-    github: https://github.com/tvaughan/middleman-deploy
+    github: https://github.com/middleman-contrib/middleman-deploy
   supported_api_versions:
     - original
   tags:
@@ -174,11 +174,20 @@
   name: middleman-sync
   description: Synchronise your Middleman build to S3 and more.
   links:
-    github: https://github.com/karlfreeman/middleman-sync
+    github: https://github.com/middleman-contrib/middleman-sync
   supported_api_versions:
     - original
   tags:
     - Deployment
+-
+  name: middleman-dotenv
+  description: Integrates Dotenv into Middleman
+  links:
+    github: https://github.com/middleman-contrib/middleman-dotenv
+  supported_api_versions:
+    - original
+  tags:
+    - Environments
 -
   name: middleman-syntax
   description: Code syntax highlighting.
@@ -532,7 +541,7 @@
     - Haml
     - Github Pages
     - Livereload
-    - Deploy
+    - Deployment
 -
   name: middleman-protect-emails
   description: Email link protection and obfuscation
@@ -570,3 +579,12 @@
   official: no
   tags:
     - Tooling
+-
+  name: capistrano-middleman
+  description: Deploy a middleman using capistrano
+  links:
+    github: https://github.com/fedux-org/capistrano-middleman
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
