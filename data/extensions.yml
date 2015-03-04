@@ -53,9 +53,9 @@
     - Environments
 -
   name: middleman-presentation
-  description: Create presentations based on reveal.js and deliver them with middleman
+  description: Helps you to build wonderful presentations based on HTML and JavaScript. It is powered by middleman and reveal.js
   links:
-    github: https://github.com/maxmeyer/middleman-presentation
+    github: https://github.com/fedux-org/middleman-presentation
   supported_api_versions:
     - original
   tags:
