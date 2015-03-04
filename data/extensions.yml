@@ -180,6 +180,15 @@
   tags:
     - Deployment
 -
+  name: middleman-dotenv
+  description: Integrates Dotenv into Middleman
+  links:
+    github: https://github.com/middleman-contrib/middleman-dotenv
+  supported_api_versions:
+    - original
+  tags:
+    - Environments
+-
   name: middleman-syntax
   description: Code syntax highlighting.
   links:
