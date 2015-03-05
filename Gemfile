@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'middleman', "~> 3.3.0"
-gem 'zurb-foundation', '~> 4.0'
+gem 'zurb-foundation', '~> 4.0', require: 'foundation/sprockets'
 gem 'bourbon', '~> 4.0.2'
 gem 'neat', '~> 1.7.0'
 
