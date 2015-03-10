@@ -588,3 +588,13 @@
     - original
   tags:
     - Deployment
+-
+  name: middleman-geo_pattern
+  description: Integrate geo_pattern-gem into middleman
+  links:
+    github: https://github.com/fedux-org/middleman-geo_pattern
+  supported_api_versions:
+    - original
+  tags:
+    - Helpers
+    - Design
