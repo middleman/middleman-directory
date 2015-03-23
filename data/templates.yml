@@ -1,4 +1,10 @@
 -
+  name: Basis
+  description: "Basis comes with a bare minimum of pre-installs, ready for you to take it to the next level.<br>It is literally, the Basis for building a good, performant website."
+  links:
+    github: https://github.com/pzi/middleman-basis
+  tags: ['compass', 'haml', 'sass', 'coffeescript', 'bower', 'imageoptim', 'modernizr', 'sitemap', 'normalize.css', 'jquery']
+-
   name: Snappy
   description: Super fast prototyping for Middleman. Foundation, HAML, SASS, CoffeeScript, Capistrano and more.
   links:
