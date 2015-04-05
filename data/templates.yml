@@ -333,3 +333,15 @@
     - HAML
     - SCSS
     - Heroku
+-
+  name: middleman-haml-boilerplate
+  description: Project template for Middleman with SCSS, Grunt, RSS-Feed, Foundation and basic blog setup.
+  links:
+    github: https://github.com/elfacht/middleman-haml-boilerplate
+  tags:
+    - HAML
+    - SCSS
+    - Grunt
+    - Foundation
+    - RSS
+    - Blog
