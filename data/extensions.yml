@@ -616,3 +616,12 @@
     - Font Awesome
     - Analytics
     - Mobile
+-
+  name: middleman-org
+  description: Middleman org-mode extension
+  links:
+    github: https://github.com/xiaoxinghu/middleman-org
+  supported_api_versions:
+    - original
+  tags:
+    - org-mode
