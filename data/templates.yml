@@ -345,3 +345,17 @@
     - Foundation
     - RSS
     - Blog
+-
+  name: middleman-SEO
+  description: A SEO and social media optimized Middleman template. It's focused on being simple, clean, and assumption-free.
+  links:
+    github: https://github.com/secretsaucehq/middleman-seo
+  tags:
+    - SEO
+    - Social Media
+    - Blog
+    - Slim
+    - Bower
+    - Sass
+    - Bourbon
+    - Normalize.css
