@@ -17,4 +17,13 @@ configure :build do
   
   activate :minify_css
   activate :minify_javascript
+  
+  # easier to deubg with linebreaks intact
+  set(:js_compressor, Uglifier.new({
+    :output => {
+      :beautify => true,
+      :indent_level => 0
+    }
+  }))
+  
 end
