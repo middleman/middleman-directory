@@ -625,3 +625,13 @@
     - original
   tags:
     - org-mode
+
+-
+  name: middleman-es6
+  description: "ES6 for Middleman"
+  links:
+    github: https://github.com/vast/middleman-es6
+  supported_api_versions:
+    - original
+  tags:
+    - Assets
