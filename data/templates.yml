@@ -1,4 +1,10 @@
 -
+  name: Hamlman
+  description: A basic Middleman project template based on Haml with a bit of sugar on top.
+  links:
+    github: https://github.com/meowsus/hamlman
+  tags: ['scss-lint', 'jshint', 'editorconfig', 'normalize', 'modernizr', 'haml', 'scss', 'ejs', 'autoprefixer']
+-
   name: Basis
   description: "Basis comes with a bare minimum of pre-installs, ready for you to take it to the next level.<br>It is literally, the Basis for building a good, performant website."
   links:
