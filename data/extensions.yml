@@ -635,3 +635,15 @@
     - original
   tags:
     - Assets
+
+-
+  name: middleman-dokku
+  description: Deploy a middleman site to a Dokku instance
+  links:
+    github: https://github.com/ngmaloney/middleman-dokku
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+    - Dokku
