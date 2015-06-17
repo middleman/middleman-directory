@@ -1,4 +1,10 @@
 -
+  name: middleman-web-starter-kit
+  description: This is a Middleman web starter kit that I've made to help you speed up static site building.
+  links:
+    github: https://github.com/ianabalus/middleman-web-starter-kit
+  tags: ['HTML5', 'Sass', 'Bower', 'Bourbon', 'Neat', 'Modernizr']
+-
   name: Hamlman
   description: A basic Middleman project template based on Haml with a bit of sugar on top.
   links:
