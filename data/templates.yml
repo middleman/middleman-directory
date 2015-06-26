@@ -371,3 +371,9 @@
     - Sass
     - Bourbon
     - Normalize.css
+-
+  name: Middleman-Ethos
+  description: A prototyping framework built using Middleman. Includes form validation, bootstrap, page templates, and a navigation system. Additional ability to prototype transactional email.
+  links:
+    github: https://github.com/timknight/middleman-ethos
+  tags: ['Bootstrap', 'Prototyping', 'Font Awesome', 'Sass', 'BEM']
