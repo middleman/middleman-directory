@@ -218,7 +218,7 @@
   tags: ['bower', 'bootstrap', 'slim', 'markdown', 'SCSS', 'mobile', 'compass', 'blog']
 -
   name: Landed by HTML5 UP for Middleman4
-  description: Responsive website template usking skel. This is an adaption of the the template Landed by HTML5 UP. Demo: http://html5up.net/landed
+  description: Responsive website template usking skel. This is an adaption of the the template Landed by HTML5 UP. Demo at http://html5up.net/landed
   links:
     github: https://github.com/rriemann/html5-up-landed-middleman4
   tags:
