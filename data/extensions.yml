@@ -647,3 +647,15 @@
   tags:
     - Deployment
     - Dokku
+-
+  name: middleman-sitemap-ping
+  description: Ping search engines (Google and Bing) with a sitemap URL
+  links:
+    github: https://github.com/krautcomputing/middleman-sitemap-ping
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+    - Operations
+    - Tooling
