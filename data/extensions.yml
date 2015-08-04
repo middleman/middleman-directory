@@ -659,3 +659,15 @@
     - Deployment
     - Operations
     - Tooling
+-
+  name: middleman-jspm
+  description: Add support for JSPM to Middleman
+  links:
+    github: https://github.com/oncomouse/middleman-jspm
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Assets
+    - JSPM
+    - SystemJS
