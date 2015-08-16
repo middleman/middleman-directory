@@ -52,6 +52,15 @@
     - Settings
     - Environments
 -
+  name: middleman-portfolio
+  description: A low-drama portfolio generator for your middleman site.
+  links:
+    github: https://github.com/dhulihan/middleman-portfolio
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+-
   name: middleman-presentation
   description: Helps you to build wonderful presentations based on HTML and JavaScript. It is powered by middleman and reveal.js
   links:
