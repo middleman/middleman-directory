@@ -680,7 +680,7 @@
     - Assets
 -
   name: middlewoman
-  description: A Middleman template: SEO, MQ breakpoints, modular SCSS, Rack heroku deployment.
+  description: "A Middleman template: SEO, MQ breakpoints, modular SCSS, Rack heroku deployment."
   links:
     github: https://github.com/natbatwat/middlewoman
   official: false
