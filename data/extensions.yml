@@ -678,3 +678,23 @@
     - original
   tags:
     - Assets
+-
+  name: middlewoman
+  description: A Middleman template: SEO, MQ breakpoints, modular SCSS, Rack heroku deployment.
+  links:
+    github: https://github.com/natbatwat/middlewoman
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - SEO
+    - Autoprefixer
+    - Heroku
+    - Livereload
+    - Modernizr
+    - Mobile
+    - Normalize
+    - Normalize.css
+    - Sass
+    - SCSS
+    - Sitemap
