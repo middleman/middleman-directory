@@ -678,3 +678,13 @@
     - original
   tags:
     - Assets
+-
+  name: middleman-fragment-caching
+  description: Middleman fragment caching extension like Rails.
+  links:
+    github: https://github.com/organicadigital/middleman-fragment-caching
+  official: false
+  tags:
+    - Operations
+    - Deployment
+    - Cache
