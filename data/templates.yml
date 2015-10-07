@@ -233,7 +233,7 @@
   description: Duo Color — universal template for Middleman. Blog-aware, bootstrap, internationalization, latex, privacy-aware defaults
   links:
     github: https://github.com/rriemann/middleman-blog-template-duocolor
-  tags: ['bower', 'bootstrap', 'slim', 'markdown', 'SCSS', 'mobile', 'compass', 'blog']
+  tags: ['bower', 'bootstrap', 'slim', 'markdown', 'SCSS', 'mobile', 'compass', 'Blog']
 -
   name: Landed by HTML5 UP for Middleman4
   description: Responsive website template usking skel. This is an adaption of the the template Landed by HTML5 UP. Demo online at http://html5up.net/landed
