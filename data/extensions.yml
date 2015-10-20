@@ -688,3 +688,13 @@
     - Operations
     - Deployment
     - Cache
+-
+  name: middleman-search
+  description: Lunr.js based search engine for Middleman sites
+  links:
+    github: https://github.com/manastech/middleman-search
+  official: false
+  tags:
+    - Tooling
+    - Search
+    - Lunr.js
