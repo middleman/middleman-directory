@@ -388,3 +388,11 @@
   links:
     github: https://github.com/timknight/middleman-ethos
   tags: ['Bootstrap', 'Prototyping', 'Font Awesome', 'Sass', 'BEM']
+-
+  name: middleman-cactus
+  description: Cactus theme for Middleman.
+  links:
+    github: https://github.com/dtcristo/middleman-cactus
+  tags:
+    - Theme
+    - Blog
