@@ -698,3 +698,14 @@
     - Tooling
     - Search
     - Lunr.js
+-
+  name: middleman-scavenger
+  description: Automatically create and use SVG sprite sheets
+  links:
+    github: https://github.com/varvet/middleman-scavenger
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Assets
+    - Tooling
