@@ -709,3 +709,11 @@
   tags:
     - Assets
     - Tooling
+-
+  name: middleman-rackspace
+  description: Deploy your Middleman site to Rackspace Cloud Files.
+  links:
+    github: https://github.com/dtcristo/middleman-rackspace
+  official: false
+  tags:
+    - Deployment
