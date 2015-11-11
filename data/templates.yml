@@ -1,4 +1,12 @@
 -
+  name: middleman-blog
+  description: Official Middleman Blog template
+  links:
+    github: https://github.com/middleman/middleman-templates-blog
+  tags: ['Blog']
+  official: true
+  slug: blog
+-
   name: middleman-web-starter-kit
   description: This is a Middleman web starter kit that I've made to help you speed up static site building.
   links:

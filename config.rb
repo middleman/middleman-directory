@@ -7,7 +7,7 @@ end
 # Generate v4 endpoints
 ignore '/api/result.json'
 data.templates.each do |t|
-  proxy "/api/#{slugify(t.name)}.json", '/api/result.json', locals: { t: t }
+  proxy "/api/#{t.slug || slugify(t.name)}.json", '/api/result.json', locals: { t: t }
 end
 
 activate :ember
