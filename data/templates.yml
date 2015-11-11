@@ -6,6 +6,7 @@
   tags: ['Blog']
   official: true
   slug: blog
+  supports_v4: true
 -
   name: middleman-web-starter-kit
   description: This is a Middleman web starter kit that I've made to help you speed up static site building.
