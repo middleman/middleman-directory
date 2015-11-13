@@ -717,3 +717,15 @@
   official: false
   tags:
     - Deployment
+-
+  name: Surf-N-Perf
+  description: Micro-library for gathering front-end web performance data. Includes helpers for Middleman projects.
+  links:
+    github: https://github.com/Comcast/Surf-N-Perf
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Assets
+    - Helpers
+    - WebPerf
