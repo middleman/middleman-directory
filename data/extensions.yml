@@ -729,3 +729,13 @@
     - Assets
     - Helpers
     - WebPerf
+-
+  name: middleman-foxycart
+  description: FoxyCart (hosted eCommerce) helpers to generate product links (including HMAC verficiation links) and include the required Javascript in your templates.
+  links:
+    github: https://github.com/rjocoleman/middleman-foxycart
+  supported_api_versions:
+    - original
+  tags:
+    - Helpers
+    - Operations
