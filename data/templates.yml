@@ -410,6 +410,7 @@
   description: Middleman v4 frond-end starter kit. Includes; HAML, Sass, Compass, jQuery, Bootstrap and ready to use Rails assets, partials.
   links:
     github: https://github.com/coskuntekin/middleman_starter_kit
+  supports_v4: true  
   tags:
     - Middleman v4
     - Rails Assets
@@ -419,4 +420,3 @@
     - Boostrap
     - jQuery
     - Font-Awesome
-
