@@ -3,9 +3,7 @@ rvm:
   - 2.1.1
 script: bundle exec middleman build --verbose
 deploy:
-  provider: divshot
-  environment:
-    master: production
+  provider: firebase
   skip_cleanup: true
-  api_key:
-    secure: mZva6+r4Pjy5tuys43ARB2VJ+R2k/tGbQGj9PLgjLoNsR1Rp2KezZcWkURcQSiwlO5qLBguPjsKQL05bR8mr7amij2YdWzFMIgh++3z+AqkLuTYc4eo4yMO1asAw69dsWARqe8vywiL5W40Z57bFbgLiNkfF5Omxv3EamHMTXFQ=
+  on:
+    branch: master
