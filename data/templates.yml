@@ -420,3 +420,9 @@
     - Boostrap
     - jQuery
     - Font-Awesome
+-
+  name: Middleman Foundation 6
+  description: A minimal Middleman template For Zurb Foundation 6 (Sass version).
+  links:
+    github: https://github.com/paperdigits/middleman-foundation-6
+  tags: ['ZURB Foundation', 'Sass', 'bower','haml']
