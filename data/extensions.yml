@@ -739,3 +739,13 @@
   tags:
     - Helpers
     - Operations
+-
+  name: ember-middleman
+  description: ember-middleman supports using Ember.js with Middleman in easily.
+  links:
+    github: https://github.com/tricknotes/ember-middleman
+  official: false
+  tags:
+    - Tooling
+    - Assets
+    - Ember
