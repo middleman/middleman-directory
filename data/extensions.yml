@@ -404,6 +404,9 @@
   name: middleman-google-analytics
   description: Generate your Google Analytics tracking code.
   official: false
+  supported_api_versions:
+    - original
+    - v4
   links:
     github: https://github.com/danielbayerlein/middleman-google-analytics
   tags:
