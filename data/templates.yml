@@ -51,6 +51,8 @@
   links:
     github: https://github.com/danielbayerlein/middleman-impress
   tags: [Presentation]
+  slug: impress
+  supports_v4: true
 -
   name: Slimmer
   description: Starter Template ~ Slim, Sass, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
