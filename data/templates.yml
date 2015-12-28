@@ -43,12 +43,16 @@
   links:
     github: https://github.com/danielbayerlein/middleman-casper
   tags: [Theme, Blog]
+  slug: casper
+  supports_v4: true
 -
   name: middleman-impress
   description: A Middleman Project Template built with impress.js, Haml, Sass and CoffeeScript.
   links:
     github: https://github.com/danielbayerlein/middleman-impress
   tags: [Presentation]
+  slug: impress
+  supports_v4: true
 -
   name: Slimmer
   description: Starter Template ~ Slim, Sass, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
@@ -410,7 +414,7 @@
   description: Middleman v4 frond-end starter kit. Includes; HAML, Sass, Compass, jQuery, Bootstrap and ready to use Rails assets, partials.
   links:
     github: https://github.com/coskuntekin/middleman_starter_kit
-  supports_v4: true  
+  supports_v4: true
   tags:
     - Middleman v4
     - Rails Assets
