@@ -54,6 +54,14 @@
   slug: impress
   supports_v4: true
 -
+  name: middleman-pattern-library
+  description: A Middleman project template for creating and managing your front-end pattern library / style guide.
+  links:
+    github: https://github.com/danielbayerlein/middleman-pattern-library
+  tags: [Pattern Library, Style Guide]
+  slug: pattern-library
+  supports_v4: true
+-
   name: Slimmer
   description: Starter Template ~ Slim, Sass, Coffeescript precompilers ~ Bower, Compass & Github Pages tools ~ Sublime Text project file
   links:
