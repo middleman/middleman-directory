@@ -752,3 +752,14 @@
     - Tooling
     - Assets
     - Ember
+-
+  name: middleman-github-deploy
+  description: Build your Middleman site and push it to your gh-pages branch
+  links:
+    github: https://github.com/hovancik/middleman-github-deploy
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Deployment
+    - Github
