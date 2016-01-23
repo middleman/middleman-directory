@@ -13,3 +13,16 @@
   tags:
     - Free
     - Paid
+-
+  name: Zammu
+  description: |-
+    <a href='https://zammu.in/middleman?invitation_code=MIDDLEMAN'>Automatically build and deploy Middleman websites to Github Pages.</a>
+    Once set up, your website will be deployed to Github Pages whenver you push new content to your Github Repository.
+    <a href='https://zammu.in/middleman?invitation_code=MIDDLEMAN'>Signup now and start publishing with ease, use the invitation code MIDDLEMAN.
+  links:
+    site: https://zammu.in/middleman
+  tags:
+    - Free
+    - Paid
+    - AutomaticDeployment
+    - GithubPages
