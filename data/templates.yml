@@ -438,3 +438,10 @@
   links:
     github: https://github.com/paperdigits/middleman-foundation-6
   tags: ['ZURB Foundation', 'Sass', 'bower','haml']
+
+-
+  name: Gulp Middleman
+  description: This Middleman template uses gulp for assets management.
+  links:
+    github: https://github.com/guemidiborhane/middleman-template
+  tags: ['HAML', 'Sass', 'libSass', 'Browserify', 'Coffeeify', 'Bootstrap', 'Gulp']
