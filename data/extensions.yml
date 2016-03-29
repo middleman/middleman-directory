@@ -763,3 +763,17 @@
   tags:
     - Deployment
     - Github
+-
+  name: middleman-targets
+  description: Build and serve multiple targets with granular feature control and automatic images.
+  links:
+    github: https://github.com/middlemac/middleman-targets
+    site: https://rubygems.org/gems/middleman-targets
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Assets
+    - Environments
+    - Helpers
+    - Tooling
