@@ -445,3 +445,9 @@
   links:
     github: https://github.com/guemidiborhane/middleman-template
   tags: ['HAML', 'Sass', 'libSass', 'Browserify', 'Coffeeify', 'Bootstrap', 'Gulp']
+-
+  name: Middleman Zurb Foundation 6
+  description: A simple starter template for Middleman 4 that includes Zurb Foundation 6
+  links:
+    github: https://github.com/james-weaver/middleman-zurb-foundation-6
+  tags: ['ZURB Foundation', 'Foundation 6', 'Haml', 'Sass']
