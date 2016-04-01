@@ -18,11 +18,13 @@ App.Category = Ember.Object.extend({
   }.property('data.@each.tags'),
 
   itemsByTag: function(tagName) {
-    tagName = tagName.toLowerCase();
-    if (tagName === 'all') { return this.get('data'); }
+    // tagName = tagName.toLowerCase();
+    tagName = tagName;
+    if (tagName === 'All') { return this.get('data'); }
 
     return this.get('data').filter(function(item) {
-      return item.get('tags').filterProperty('name', tagName.capitalize()).length;
+      // return item.get('tags').filterProperty('name', tagName.capitalize()).length;
+      return item.get('tags').filterProperty('name', tagName ).length;
     });
   }
 });
@@ -45,7 +47,8 @@ App.Tag = Ember.Object.extend({});
 App.Tag.allTags = Ember.Map.create({});
 App.Tag.tagForName = function(tagName) {
   if (!App.Tag.allTags.has(tagName)) {
-    App.Tag.allTags.set(tagName, App.Tag.create({ name: tagName.capitalize() }));
+    // App.Tag.allTags.set(tagName, App.Tag.create({ name: tagName.capitalize() }));
+    App.Tag.allTags.set(tagName, App.Tag.create({ name: tagName }));
   }
   return App.Tag.allTags.get(tagName);
 };
@@ -75,7 +78,7 @@ App.IndexRoute = Ember.Route.extend({
 App.CategoryIndexRoute = Ember.Route.extend({
   needs: ['category'],
   redirect: function() {
-    this.transitionTo('category.tag', this.controllerFor('category').get('content'), App.Tag.tagForName('all'));
+    this.transitionTo('category.tag', this.controllerFor('category').get('content'), App.Tag.tagForName('All'));
   }
 });
 
@@ -97,7 +100,8 @@ App.CategoryTagRoute = Ember.Route.extend({
   },
 
   serialize: function(params) {
-    return { tag_name: params.get('name').toLowerCase() };
+    // return { tag_name: params.get('name').toLowerCase() };
+    return { tag_name: params.get( 'name' ) };
   }
 });
 
@@ -120,7 +124,7 @@ App.CategoryController = Ember.ObjectController.extend({
       return item1.get('name').localeCompare(item2.get('name'));
     });
 
-    sortedTags.unshiftObject(App.Tag.tagForName('all'));
+    sortedTags.unshiftObject(App.Tag.tagForName('All'));
 
     return sortedTags;
   }.property('tags.@each')
