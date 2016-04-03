@@ -777,3 +777,17 @@
     - Environments
     - Helpers
     - Tooling
+-
+  name: middleman-pagegroups
+  description: Simple, automatic navigation for groups of Middleman pages. Siblings, Children, Breadcrumbs, and more.
+  links:
+    github: https://github.com/middlemac/middleman-pagegroups
+    site: https://rubygems.org/gems/middleman-pagegroups
+  official: false
+  supported_api_versions:
+    - original
+  tags:
+    - Assets
+    - Helpers
+    - Navigation
+    - Tooling
