@@ -26,3 +26,15 @@
     - Paid
     - AutomaticDeployment
     - GithubPages
+-
+  name: PubStorm
+  description: |-
+    Lightning fast, 100% free publishing and hosting platform for middleman projects, static sites and single-page javascript applications. Production-grade CDN, free SSL, custom domains, collaboration and more. <a href="https://www.pubstorm.com">Publish your middleman site for free</a>.
+  links:
+    site: https://www.pubstorm.com
+  tags:
+    - Free
+    - Paid
+    - CDN
+    - Custom Domains
+    - SSL
