@@ -458,8 +458,8 @@
     github: https://github.com/james-weaver/middleman-semantic-ui
   tags: ['Semantic UI', 'Haml', 'Sass']
 -
-  name: Middleman Blog Template for <abbr title="eXtensible Hypertext Mark-up Language">XHTML</abbr> served as <code>application/xhtml+xml</code>
-  description: An <abbr title="eXtensible Hypertext Mark-up Language">XHTML</abbr> template for <a href="https://github.com/middleman/middleman-blog">middleman-blog</a> based upon a fork of the <a href="https://github.com/middleman/middleman-templates-blog">Default Middleman Blog Template</a>.
+  name: Middleman Blog Template for XHTML served as application/xhtml+xml
+  description: An XHTML template for middleman-blog based upon a fork of the Default Middleman Blog Template.
   links:
     github: https://github.com/FearGoidte/middleman-templates-blog-xhtml
   tags: ['XHTML', 'application/xhtml+xml', 'eRuby']
