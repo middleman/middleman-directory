@@ -1,4 +1,17 @@
 -
+  name: middleman-crawler
+  description: Use a crawler to search error codes for your Middleman site
+  links:
+    github: https://github.com/welaika/middleman-crawler
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Operations
+    - Environments
+    - CLI
+    - Crawler
+-
   name: liquid-bourbon-middleman
   description: Use Middleman static site generator with Bourbon and Liquid templates out of the box.
   links:
