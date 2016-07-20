@@ -1,4 +1,14 @@
 -
+  name: middleman-facebook-pixel
+  description: Generate your Facebook Pixel code.
+  links:
+    github: https://github.com/xcopy/middleman-facebook-pixel
+  supported_api_versions:
+    - original
+  tags:
+    - Generator
+    - Tooling
+-
   name: middleman-crawler
   description: Use a crawler to search error codes for your Middleman site
   links:
