@@ -1,4 +1,14 @@
 -
+  name: middleman-imgix
+  description: Run all of your images (or only some) through imgix for all sorts of fun features.
+  links:
+    github: https://github.com/bigcartel/middleman-imgix
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Assets
+-
   name: middleman-facebook-pixel
   description: Generate your Facebook Pixel code.
   links:
