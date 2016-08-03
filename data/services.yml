@@ -38,3 +38,11 @@
     - CDN
     - Custom Domains
     - SSL
+-
+  name: DatoCMS
+  description: "DatoCMS is a fully customizable web-based administrative area for your Middleman static websites. Let your clients publish new content independently, host the site anywhere you like."
+  links:
+    site: http://www.datocms.com
+  tags:
+    - Free
+    - Paid
