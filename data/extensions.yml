@@ -824,3 +824,15 @@
     - Helpers
     - Navigation
     - Tooling
+-
+  name: middleman-dato
+  description: Let your clients manage the content of your Middleman website from a web admin interface. Images are managed by Imgix.
+  links:
+    github: https://github.com/datocms/middleman-dato
+    site: https://www.datocms.com/docs/tutorials/middleman_netlify/
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Deployment
+    - Assets
