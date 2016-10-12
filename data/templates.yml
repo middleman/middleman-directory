@@ -470,3 +470,10 @@
     github: https://github.com/elliotekj/middleman-silverback
   tags: ['Autoprefixer', 'ERB', 'HTML5', 'Lightweight', 'LiveReload', 'Responsive', 'SCSS', 'Sitemap', 'Theme']
   supports_v4: true
+-
+  name: middleman-gulp
+  description: A Middleman 4 template using Gulp.js via the external pipeline
+  links:
+    github: https://github.com/joshukraine/middleman-gulp
+  tags: ['Gulp', 'Haml', 'Sass', 'Browserify', 'BrowserSync', 'S3', 'Pry', 'Rspec']
+  supports_v4: true
