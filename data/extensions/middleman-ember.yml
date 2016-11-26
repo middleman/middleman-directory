@@ -1,0 +1,7 @@
+name: middleman-ember
+description: Adds Ember assets to a Middleman project. Support for production version of Ember when building.
+links:
+  github: https://github.com/mrship/middleman-ember
+official: true
+tags:
+  - Tooling
