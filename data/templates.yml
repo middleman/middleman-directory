@@ -477,3 +477,10 @@
     github: https://github.com/joshukraine/middleman-gulp
   tags: ['Gulp', 'Haml', 'Sass', 'Browserify', 'BrowserSync', 'S3', 'Pry', 'Rspec']
   supports_v4: true
+-
+  name: Middleman Pinterest Blog Template
+  description: A Middleman 4 template with a pinterest-style masonry layout built with Semantic UI. Demo online at https://middleman-pinterest-blog-template.netlify.com
+  links:
+    github: https://github.com/james-weaver/middleman-pinterest-blog-template
+  tags: ['Haml', 'Sass', 'Pinterest', 'Masonry', 'Blog', 'Theme']
+  supports_v4: true
