@@ -464,7 +464,7 @@
     github: https://github.com/FearGoidte/middleman-templates-blog-xhtml
   tags: ['XHTML', 'application/xhtml+xml', 'eRuby']
 -
-  name: Silverback: A theme for middleman-blog
+  name: "Silverback: A theme for middleman-blog"
   description: A responsive, lightweight, and configurable theme for middleman-blog.
   links:
     github: https://github.com/elliotekj/middleman-silverback
