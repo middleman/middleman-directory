@@ -836,3 +836,12 @@
     - Tooling
     - Deployment
     - Assets
+
+-
+  name: middleman-rsync
+  description: Deploy middleman sites via rsync.
+  links:
+    github: https://github.com/hardhatdigital/middleman-rsync
+  official: false
+  tags:
+    - Deployment
