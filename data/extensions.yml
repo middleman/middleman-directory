@@ -836,7 +836,6 @@
     - Tooling
     - Deployment
     - Assets
-
 -
   name: middleman-rsync
   description: Deploy middleman sites via rsync.
