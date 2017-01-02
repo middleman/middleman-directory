@@ -844,3 +844,12 @@
   official: false
   tags:
     - Deployment
+-
+  name: middleman-keycdn
+  description: Purge a KeyCDN zone cache
+  links:
+    github: https://github.com/ideasasylum/middleman-keycdn
+  official: false
+  tags:
+    - Deployment
+    - CDN
