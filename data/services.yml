@@ -1,11 +1,4 @@
 -
-  name: Fjords
-  description: "Simple Static Hosting"
-  links:
-    site: http://fjords.cc
-  tags:
-    - Paid
--
   name: OpenShift Online
   description: "The Open Hybrid Cloud Application Platform by Red Hat.  Launch a Middleman application from the <a href='https://hub.openshift.com/quickstarts/160-middleman'>OpenShift Hub</a> for free."
   links:
@@ -26,18 +19,6 @@
     - Paid
     - AutomaticDeployment
     - GithubPages
--
-  name: PubStorm
-  description: |-
-    Lightning fast, 100% free publishing and hosting platform for middleman projects, static sites and single-page javascript applications. Production-grade CDN, free SSL, custom domains, collaboration and more. <a href="https://www.pubstorm.com">Publish your middleman site for free</a>.
-  links:
-    site: https://www.pubstorm.com
-  tags:
-    - Free
-    - Paid
-    - CDN
-    - Custom Domains
-    - SSL
 -
   name: DatoCMS
   description: "DatoCMS is a fully customizable web-based administrative area for your Middleman static websites. Let your clients publish new content independently, host the site anywhere you like."
