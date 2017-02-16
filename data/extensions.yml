@@ -840,3 +840,11 @@
   tags:
     - Deployment
     - CDN
+-
+  name: middleman-data_source
+  description: Mount remote JSON & YAML to the Middleman data object.
+  links:
+    github: https://github.com/stevenosloan/middleman-data_source
+  official: false
+  tags:
+    - Tooling
