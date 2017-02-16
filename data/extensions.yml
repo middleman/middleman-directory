@@ -323,10 +323,10 @@
     - Tooling
 -
   name: middleman-autoprefixer
-  description: Autoprefixer integration with Middleman
+  description: Autoprefixer integration to automatically vendor-prefix stylesheets.
   links:
-    github: https://github.com/porada/middleman-autoprefixer
-  official: false
+    github: https://github.com/middleman/middleman-autoprefixer
+  official: true
   tags:
     - Tooling
     - Assets
