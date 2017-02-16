@@ -840,3 +840,27 @@
   tags:
     - Deployment
     - CDN
+-
+  name: middleman-data_source
+  description: Mount remote JSON & YAML to the Middleman data object.
+  links:
+    github: https://github.com/stevenosloan/middleman-data_source
+  official: false
+  tags:
+    - Tooling
+-
+  name: middleman-google_drive
+  description: Load content from Google Drive.
+  links:
+    github: https://github.com/voxmedia/middleman-google_drive
+  official: false
+  tags:
+    - Tooling
+-
+  name: middleman-robots
+  description: Creates a `robots.txt` file on build based on a configuration.
+  links:
+    github: https://github.com/yterajima/middleman-robots
+  official: false
+  tags:
+    - Tooling
