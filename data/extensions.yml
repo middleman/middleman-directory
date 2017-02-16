@@ -848,3 +848,11 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-google_drive
+  description: Load content from Google Drive.
+  links:
+    github: https://github.com/voxmedia/middleman-google_drive
+  official: false
+  tags:
+    - Tooling
