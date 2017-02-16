@@ -856,3 +856,11 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-robots
+  description: Creates a `robots.txt` file on build based on a configuration.
+  links:
+    github: https://github.com/yterajima/middleman-robots
+  official: false
+  tags:
+    - Tooling
