@@ -484,3 +484,11 @@
     github: https://github.com/james-weaver/middleman-pinterest-blog-template
   tags: ['Haml', 'Sass', 'Pinterest', 'Masonry', 'Blog', 'Theme']
   supports_v4: true
+-
+  name: thoughtbot Middleman Template
+  description: >
+    The base Middleman application used at thoughtbot, ready to deploy
+    to Netlify.
+  links:
+    github: https://github.com/thoughtbot/middleman-template
+  tags: ['accessibility', 'Bourbon', 'Bitters', 'ERB', 'Neat', 'Netlify', 'Sass']
