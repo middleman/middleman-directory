@@ -864,3 +864,11 @@
   official: false
   tags:
     - Tooling
+-
+  name: middleman-aria_current
+  description: Indicate current (active) links using `aria-current`.
+  links:
+    github: https://github.com/thoughtbot/middleman-aria_current
+  tags:
+    - accessibility
+    - helpers
