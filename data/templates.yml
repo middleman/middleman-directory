@@ -110,6 +110,11 @@
     github: https://github.com/hhg2288/foundation-smacss-middleman
   tags: ['ZURB Foundation']
 -
+  name: Middleman Bourbon neat Refills
+  description: A simple project template to start with bourbon neat & refills, here you will find : Haml, sass, coffescript, bourbon, neat, refills, normalize
+  links: https://github.com/kwiss/middleman-bourbon-neat.git
+  tags: ['Bourbon', 'neat', 'refills', 'haml', 'sass']
+-
   name: Middleman-Frameless
   description: Basic project template with adaptive Sass grid from <a href="http://framelessgrid.com/">Frameless</a>.
   links:
