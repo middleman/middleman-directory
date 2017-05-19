@@ -492,3 +492,10 @@
   links:
     github: https://github.com/thoughtbot/middleman-template
   tags: ['accessibility', 'Bourbon', 'Bitters', 'ERB', 'Neat', 'Netlify', 'Sass']
+-
+  name: Middleman Webpack Svelte
+  description: >
+    Simple boilerplate to start projects with modern frontend stack using external assets pipeline managed by webpack.
+  links:
+    github: https://github.com/vortizhe/middleman-webpack-svelte/tree/master
+  tags: ['webpack', 'svelte', 'sass', 'autoprefixer', 'ES6', 'Middleman v4']
