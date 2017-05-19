@@ -499,3 +499,4 @@
   links:
     github: https://github.com/vortizhe/middleman-webpack-svelte/tree/master
   tags: ['webpack', 'svelte', 'sass', 'autoprefixer', 'ES6', 'Middleman v4']
+  supports_v4: true
