@@ -492,3 +492,10 @@
   links:
     github: https://github.com/thoughtbot/middleman-template
   tags: ['accessibility', 'Bourbon', 'Bitters', 'ERB', 'Neat', 'Netlify', 'Sass']
+-
+  name: Agency For Middleman
+  description: Start Bootstrap's Agency Theme, for Middleman
+  links:
+    github: https://github.com/digitalnomadstudio/Agency-For-Middleman
+  tags: ['Bootstrap', 'Theme']
+  supports_v4: true
