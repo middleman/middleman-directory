@@ -506,3 +506,10 @@
     github: https://github.com/digitalnomadstudio/HTML5Up-Striped-Middleman
   tags: ['HTML5 Up', 'Theme','blog']
   supports_v4: true
+ -
+  name: Clean Blog
+  description: The "Clean Blog" theme by Start Bootstrap
+  links:
+    github: https://github.com/digitalnomadstudio/clean-blog-middleman
+  tags: ['Bootstrap', 'Theme','blog']
+  supports_v4: true
