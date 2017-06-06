@@ -872,3 +872,12 @@
   tags:
     - accessibility
     - helpers
+-
+  name: middleman-related-articles
+  description: Automatically identify related articles in your Middleman blog
+  links:
+    github: https://github.com/dsedivec/middleman-related-articles
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
