@@ -507,4 +507,10 @@
     github: https://github.com/digitalnomadstudio/middleman-html5up-halcyonic
   tags: ['html5up','blog','Middleman v4']
   supports_v4: true
-    
+-
+  name: Resume
+  description: Start Bootstrap Resume  - for Middleman
+  links:
+    github: https://github.com/aroaminggeek/Start-Bootstrap-Resume-For-Middleman
+  tags: ['startbootstrap','one page','Middleman v4','cv','resume']
+supports_v4: true
