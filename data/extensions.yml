@@ -881,3 +881,12 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-async-image
+  description: Convert targeted images to lower quality images and load asynchronously like Medium
+  links:
+    github: https://github.com/bastienrobert/middleman-async-image
+  supported_api_versions:
+    - original
+  tags:
+    - Optimization
