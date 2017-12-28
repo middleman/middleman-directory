@@ -124,10 +124,22 @@
     - mobile
 -
   name: middleman-zurb-template
-  description: Middleman blog template containing ZURB Foundation and sensible default components and templates.
+  description: Middleman v3 blog template containing ZURB Foundation v4, Font Awesome, HTML Boilerplate, and more.
   links:
     github: https://github.com/mattolson/middleman-zurb-template
-  tags: ['ZURB Foundation']
+  tags:
+    - Blog
+    - Foundation
+    - Zurb Foundation
+    - Font Awesome
+    - HTML Boilerplate
+    - Rails Assets
+    - Disqus
+    - Analytics
+    - Mobile
+    - Modernizr
+    - Responsive
+    - Sitemap
 -
   name: Sauce
   description: Minimal, components-based Middleman template.
@@ -438,7 +450,6 @@
   links:
     github: https://github.com/paperdigits/middleman-foundation-6
   tags: ['ZURB Foundation', 'Sass', 'bower','haml']
-
 -
   name: Gulp Middleman
   description: This Middleman template uses gulp for assets management.
@@ -507,4 +518,26 @@
     github: https://github.com/digitalnomadstudio/middleman-html5up-halcyonic
   tags: ['html5up','blog','Middleman v4']
   supports_v4: true
-    
+-
+  name: middleman-bootstrap-template
+  description: A Middleman 4 template with support for Bootstrap 4, Font Awesome, HTML Boilerplate, and more. A great foundation for your new blog.
+  links:
+    github: https://github.com/mattolson/middleman-bootstrap-template
+  tags:
+    - Blog
+    - Middleman v4
+    - Bootstrap
+    - Bootstrap 4
+    - Font Awesome
+    - HTML Boilerplate
+    - Rails Assets
+    - Disqus
+    - Analytics
+    - JQuery
+    - Mobile
+    - Modernizr
+    - Responsive
+    - Autoprefixer
+    - Sitemap
+  slug: bootstrap
+  supports_v4: true
