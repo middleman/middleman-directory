@@ -881,3 +881,12 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-brotli
+  description: Compress assets with Brotli for maximum shrinkage
+  links:
+    github: https://github.com/exteris/middleman-brotli
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
