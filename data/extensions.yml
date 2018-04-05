@@ -881,3 +881,12 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-hotjar
+  description: Generate your Hotjar analytics tracking code.
+  official: false
+  links:
+    github: https://github.com/KieranHunt/middleman-hotjar
+  tags:
+    - Generator
+    - Tooling
