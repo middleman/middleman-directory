@@ -511,6 +511,6 @@
   name: middleman-tailwindcss
   description: The default middleman project template but with Tailwind CSS as a PostCSS plugin
   links:
-    github: https://github.com/digitalnomadstudio/middleman-html5up-halcyonic
+    github: https://github.com/jonaskay/middleman-tailwindcss
   tags: ['Tailwind CSS','Gulp']
   supports_v4: true    
