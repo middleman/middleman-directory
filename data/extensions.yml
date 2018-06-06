@@ -881,3 +881,11 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-firebase
+  description: Rake tasks for deploying Middleman sites to Firebase Hosting
+  links:
+    bitbucket: https://bitbucket.org/marnen/middleman-firebase
+  tags:
+    - Tooling
+    - Operations
