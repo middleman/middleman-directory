@@ -881,3 +881,12 @@
     - original
   tags:
     - Tooling
+-
+  name: middleman-medium
+  description: Fetches a preview of published posts from Medium Feed
+  official: false
+  links:
+    github: https://github.com/cffiebigc/middleman-medium
+  tags:
+    - Generator
+    - Tooling
