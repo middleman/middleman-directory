@@ -883,6 +883,17 @@
   tags:
     - Tooling
 -
+  name: middleman-apps
+  description: Truly dynamic pages for Middleman
+  links:
+    github: https://github.com/nikhgupta/middleman-apps
+  supported_api_versions:
+    - original
+  tags:
+    - Operations
+    - Deployment
+    - Dynamic Pages
+-
   name: middleman-async-image
   description: Convert targeted images to lower quality images and load asynchronously like Medium
   links:
