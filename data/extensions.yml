@@ -883,6 +883,15 @@
   tags:
     - Tooling
 -
+  name: middleman-async-image
+  description: Convert targeted images to lower quality images and load asynchronously like Medium
+  links:
+    github: https://github.com/bastienrobert/middleman-async-image
+  supported_api_versions:
+    - original
+  tags:
+    - Optimization
+-
   name: middleman-brotli
   description: Compress assets with Brotli for maximum shrinkage
   links:
