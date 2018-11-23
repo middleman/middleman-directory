@@ -883,6 +883,12 @@
   tags:
     - Tooling
 -
+  name: middleman-hotjar
+  description: Generate your Hotjar analytics tracking code.
+  official: false
+  links:
+    github: https://github.com/KieranHunt/middleman-hotjar
+-
   name: middleman-firebase
   description: Rake tasks for deploying Middleman sites to Firebase Hosting
   links:
