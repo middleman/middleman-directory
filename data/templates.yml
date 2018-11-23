@@ -514,3 +514,10 @@
     github: https://github.com/jonaskay/middleman-tailwindcss
   tags: ['Tailwind CSS','Gulp']
   supports_v4: true    
+-
+  name: Strata
+  description: Strata by HTML5 Up - for Middleman
+  links:
+    github: https://github.com/abeanders/middleman-html5up-strata
+  tags: ['html5up','Middleman v4']
+  supports_v4: true
