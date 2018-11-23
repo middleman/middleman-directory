@@ -883,6 +883,14 @@
   tags:
     - Tooling
 -
+  name: middleman-typogruby
+  description: Improve your web typography
+  links:
+    github: https://github.com/ssbx/middleman-typogruby
+  supported_api_versions:
+    - original
+  tags:
+-
   name: middleman-apps
   description: Truly dynamic pages for Middleman
   links:
