@@ -555,3 +555,10 @@
     github: https://github.com/abeanders/middleman-html5up-strata
   tags: ['html5up','Middleman v4']
   supports_v4: true
+-
+  name: Start Bootstrap Resume
+  description: A slick one page resume/CV theme by Start Bootstrap
+  links:
+    github: https://github.com/aroaminggeek/Start-Bootstrap-Resume-For-Middleman
+  tags: ['Start Bootstrap','resume','cv',one page','Middleman v4','bootstrap']
+  supports_v4: true
