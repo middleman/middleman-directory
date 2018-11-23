@@ -1,4 +1,16 @@
 -
+  name: middleman-versions
+  description: Compile different middleman site versions with custom data injected
+  links:
+    github: https://github.com/cuentica/middleman-versions
+    site: https://rubygems.org/gems/middleman-versions
+  supported_api_versions:
+    - original
+  tags:
+    - Tooling
+    - Deployment
+    - Settings
+-
   name: middleman-imgix
   description: Run all of your images (or only some) through imgix for all sorts of fun features.
   links:
