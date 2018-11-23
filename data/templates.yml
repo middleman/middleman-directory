@@ -507,4 +507,17 @@
     github: https://github.com/digitalnomadstudio/middleman-html5up-halcyonic
   tags: ['html5up','blog','Middleman v4']
   supports_v4: true
-    
+-
+  name: middleman-tailwindcss
+  description: The default middleman project template but with Tailwind CSS as a PostCSS plugin
+  links:
+    github: https://github.com/jonaskay/middleman-tailwindcss
+  tags: ['Tailwind CSS','Gulp']
+  supports_v4: true    
+-
+  name: Strata
+  description: Strata by HTML5 Up - for Middleman
+  links:
+    github: https://github.com/abeanders/middleman-html5up-strata
+  tags: ['html5up','Middleman v4']
+  supports_v4: true
