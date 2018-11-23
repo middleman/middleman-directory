@@ -883,6 +883,14 @@
   tags:
     - Tooling
 -
+  name: middleman-firebase
+  description: Rake tasks for deploying Middleman sites to Firebase Hosting
+  links:
+    github: https://bitbucket.org/marnen/middleman-firebase
+  tags:
+    - Tooling
+    - Operations
+-
   name: middleman-medium
   description: Fetches a preview of published posts from Medium Feed
   official: false
