@@ -20,6 +20,15 @@
     - AutomaticDeployment
     - GithubPages
 -
+  name: Hasura
+  description: |-
+    Hasura quickstart to deploy Middleman Hello World static site onto Hasura platform. Get started quickly with this quickstart <a href="https://hasura.io/hub/project/anirudhm/middleman-hello-world">hasura/middleman</a>.
+  links:
+    site: https://hasura.io/hub/project/anirudhm/middleman-hello-world
+  tags:
+    - Free
+    - AutomaticDeployment
+-
   name: DatoCMS
   description: "DatoCMS is a fully customizable web-based administrative area for your Middleman static websites. Let your clients publish new content independently, host the site anywhere you like."
   links:
