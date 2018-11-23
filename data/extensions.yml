@@ -513,6 +513,7 @@
     github: https://github.com/leighmcculloch/middleman-cdn
   tags:
     - Deployment
+    - CDN
 -
   name: middleman-disqus
   description: "A Middleman extension to integrate Disqus into your site, supporting Disqus configuration variables and comment counts."
@@ -889,3 +890,12 @@
   tags:
     - Tooling
     - Operations
+-
+  name: middleman-medium
+  description: Fetches a preview of published posts from Medium Feed
+  official: false
+  links:
+    github: https://github.com/cffiebigc/middleman-medium
+  tags:
+    - Generator
+    - Tooling
