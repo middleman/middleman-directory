@@ -883,6 +883,16 @@
   tags:
     - Tooling
 -
+  name: middleman-segment
+  description: Generating your Segment tracking code
+  links:
+    github: https://github.com/bnadlerjr/middleman-segment
+  supported_api_versions:
+    - v4
+  tags:
+    - Generators
+    - Tooling
+-
   name: middleman-hotjar
   description: Generate your Hotjar analytics tracking code.
   official: false
