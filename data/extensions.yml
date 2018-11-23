@@ -513,6 +513,7 @@
     github: https://github.com/leighmcculloch/middleman-cdn
   tags:
     - Deployment
+    - CDN
 -
   name: middleman-disqus
   description: "A Middleman extension to integrate Disqus into your site, supporting Disqus configuration variables and comment counts."
@@ -890,3 +891,44 @@
     - original
   tags:
     - Optimization
+-
+  name: middleman-brotli
+  description: Compress assets with Brotli for maximum shrinkage
+  links:
+    github: https://github.com/exteris/middleman-brotli
+  supported_api_versions:
+    - original
+  tags:
+-
+  name: middleman-segment
+  description: Generating your Segment tracking code
+  links:
+    github: https://github.com/bnadlerjr/middleman-segment
+  supported_api_versions:
+    - v4
+  tags:
+    - Generators
+    - Tooling
+-
+  name: middleman-hotjar
+  description: Generate your Hotjar analytics tracking code.
+  official: false
+  links:
+    github: https://github.com/KieranHunt/middleman-hotjar
+-
+  name: middleman-firebase
+  description: Rake tasks for deploying Middleman sites to Firebase Hosting
+  links:
+    github: https://bitbucket.org/marnen/middleman-firebase
+  tags:
+    - Tooling
+    - Operations
+-
+  name: middleman-medium
+  description: Fetches a preview of published posts from Medium Feed
+  official: false
+  links:
+    github: https://github.com/cffiebigc/middleman-medium
+  tags:
+    - Generator
+    - Tooling
