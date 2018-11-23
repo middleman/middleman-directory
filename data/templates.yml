@@ -30,7 +30,7 @@
   description: Super fast prototyping for Middleman. Foundation, HAML, SASS, CoffeeScript, Capistrano and more.
   links:
     github: https://github.com/corewebdesign/snappy
-  tags: ['foundation', 'haml', 'sass', 'coffeescript', 'font awesome', 'bower', 'imageoptim', 'capistrano']
+  tags: ['Foundation', 'haml', 'sass', 'coffeescript', 'Font-Awesome', 'bower', 'imageoptim', 'capistrano']
 -
   name: middleman-backbone-react
   description: Simple template using React with Backbone for easy API integration. Includes Backbone, React, Coffeescript, Slim, Bootstrap, Backbone React Component, and Bower.
@@ -84,31 +84,31 @@
   description: Middleman Skeleton For Zurb Foundation 5 (Sass version).
   links:
     github: https://github.com/axyz/middleman-zurb-foundation
-  tags: ['ZURB Foundation', 'Sass', 'bower']
+  tags: ['ZURB-Foundation', 'Sass', 'bower']
 -
   name: middleman-by-lifepillar
   description: Template using Foundation ≥5 and Font Awesome ≥4, with support for Disqus, Google Analytics, MathJax, and more!
   links:
     github: https://github.com/lifepillar/middleman-by-lifepillar
-  tags: ['ZURB Foundation', 'Font Awesome', 'Sass', 'Disqus', 'Analytics', 'MathJax', 'Blog']
+  tags: ['ZURB-Foundation', 'Font-Awesome', 'Sass', 'Disqus', 'Analytics', 'MathJax', 'Blog']
 -
   name: Middleman-Foundation
   description: ZURB Foundation in SCSS.
   links:
     github: https://github.com/vocino/middleman-foundation
-  tags: [ZURB Foundation]
+  tags: [ZURB-Foundation]
 -
   name: Middleman-Foundation5-Basic
   description: Foundation 5, SCSS, HAML and Coffee Script. Modular structure for css/scss files. Rails like assets structure.
   links:
     github: https://github.com/RalphAtHamburg/middleman-foundation5-basic
-  tags: ['ZURB Foundation', 'Foundation 5', 'Sass', 'HAML', 'CoffeeScript']
+  tags: ['ZURB-Foundation', 'Foundation-v5', 'Sass', 'HAML', 'CoffeeScript']
 -
   name: Middleman-Foundation-SMACSS
   description: ZURB Foundation in Compass, SCSS & HAML & following the SMACSS style guide.
   links:
     github: https://github.com/hhg2288/foundation-smacss-middleman
-  tags: ['ZURB Foundation']
+  tags: ['ZURB-Foundation']
 -
   name: Middleman-Frameless
   description: Basic project template with adaptive Sass grid from <a href="http://framelessgrid.com/">Frameless</a>.
@@ -124,10 +124,22 @@
     - mobile
 -
   name: middleman-zurb-template
-  description: Middleman blog template containing ZURB Foundation and sensible default components and templates.
+  description: Middleman v3 blog template containing ZURB Foundation v4, Font Awesome, HTML Boilerplate, and more.
   links:
     github: https://github.com/mattolson/middleman-zurb-template
-  tags: ['ZURB Foundation']
+  tags:
+    - Blog
+    - Foundation
+    - ZURB-Foundation
+    - Font-Awesome
+    - HTML5-Boilerplate
+    - Rails-Assets
+    - Disqus
+    - Analytics
+    - Mobile
+    - Modernizr
+    - Responsive
+    - Sitemap
 -
   name: Sauce
   description: Minimal, components-based Middleman template.
@@ -228,7 +240,7 @@
   description: A personal website using Zurb Foundation. Features a portfolio, blog, easy configuration-based setup, and Sass-based theming.
   links:
     github: http://github.com/techpeace/personal-site-template
-  tags: ['ZURB Foundation', 'Sass', 'theming', 'github pages']
+  tags: ['ZURB-Foundation', 'Sass', 'theming', 'github pages']
 -
   name: Fuark
   description: CoffeeScript, Stylus, Autoprefixer, and reasonable project structure.
@@ -242,13 +254,13 @@
   description: Blog starter template ~ Bootswatch theme selector, Bootstrap-scss / FontAwesome / jQuery / Html5shiv with Bower, Slim / Sass / Coffeescript precompilers
   links:
     github: https://github.com/biblichor/middleman-blog-bootstrap-template
-  tags: ['bootstrap', 'bower', 'Font Awesome', 'slim', 'coffeescript', 'Sass']
+  tags: ['bootstrap', 'bower', 'Font-Awesome', 'slim', 'coffeescript', 'Sass']
 -
   name: Thane
   description: Thane — is a Middleman template, based on HTML5 Boilerplate. It also contains some Bootstrap styles. Thane is intended as a fast and easy way to initiate the process of web-development .
   links:
     github: https://github.com/denisfl/thane/
-  tags: ['HTML5 Boilerplate', 'Bootstrap', 'Slim', 'SCSS']
+  tags: ['HTML5-Boilerplate', 'Bootstrap', 'Slim', 'SCSS']
 -
   name: Duo Color
   description: Duo Color — universal template for Middleman. Blog-aware, bootstrap, internationalization, latex, privacy-aware defaults
@@ -262,7 +274,7 @@
     github: https://github.com/rriemann/html5-up-landed-middleman4
   tags:
     - Sass
-    - Font Awesome
+    - Font-Awesome
     - Skel
     - Slim
     - jQuery
@@ -346,7 +358,7 @@
     - Bootstrap
     - SCSS
     - Slim
-    - Font Awesome
+    - Font-Awesome
 -
   name: middleman-middlemac
   description: A project template and extension for creating proper Mac OS X .help files for applications. Works on any OS that Middleman supports.
@@ -367,7 +379,7 @@
     - Heroku
     - SCSS
     - Slim
-    - Font Awesome
+    - Font-Awesome
 -
   name: middleman-haml-heroku
   description: A Middleman HAML, SASS, production ready Heroku Boilerplate Template.
@@ -408,7 +420,7 @@
   description: A prototyping framework built using Middleman. Includes form validation, bootstrap, page templates, and a navigation system. Additional ability to prototype transactional email.
   links:
     github: https://github.com/timknight/middleman-ethos
-  tags: ['Bootstrap', 'Prototyping', 'Font Awesome', 'Sass', 'BEM']
+  tags: ['Bootstrap', 'Prototyping', 'Font-Awesome', 'Sass', 'BEM']
 -
   name: middleman-cactus
   description: Cactus theme for Middleman.
@@ -419,13 +431,13 @@
     - Blog
 -
   name: middleman-starter-kit
-  description: Middleman v4 frond-end starter kit. Includes; HAML, Sass, Compass, jQuery, Bootstrap and ready to use Rails assets, partials.
+  description: Middleman-v4 frond-end starter kit. Includes; HAML, Sass, Compass, jQuery, Bootstrap and ready to use Rails assets, partials.
   links:
     github: https://github.com/coskuntekin/middleman_starter_kit
   supports_v4: true
   tags:
-    - Middleman v4
-    - Rails Assets
+    - Middleman-v4
+    - Rails-Assets
     - HAML
     - Sass
     - Compass
@@ -437,8 +449,7 @@
   description: A minimal Middleman template For Zurb Foundation 6 (Sass version).
   links:
     github: https://github.com/paperdigits/middleman-foundation-6
-  tags: ['ZURB Foundation', 'Sass', 'bower','haml']
-
+  tags: ['ZURB-Foundation', 'Sass', 'bower','haml']
 -
   name: Gulp Middleman
   description: This Middleman template uses gulp for assets management.
@@ -450,7 +461,7 @@
   description: A simple starter template for Middleman 4 that includes Zurb Foundation 6
   links:
     github: https://github.com/james-weaver/middleman-zurb-foundation-6
-  tags: ['ZURB Foundation', 'Foundation 6', 'Haml', 'Sass']
+  tags: ['ZURB-Foundation', 'Foundation-v6', 'Haml', 'Sass']
 -
   name: Middleman Semantic UI
   description: A simple starter template for Middleman 4 that includes Semantic UI
@@ -498,14 +509,37 @@
     Simple boilerplate to start projects with modern frontend stack using external assets pipeline managed by webpack.
   links:
     github: https://github.com/vortizhe/middleman-webpack-svelte/tree/master
-  tags: ['webpack', 'svelte', 'sass', 'autoprefixer', 'ES6', 'Middleman v4']
+  tags: ['webpack', 'svelte', 'sass', 'autoprefixer', 'ES6', 'Middleman-v4']
   supports_v4: true
 -
   name: Halcyonic
   description: Halcyonic by HTML5 Up - for Middleman
   links:
     github: https://github.com/digitalnomadstudio/middleman-html5up-halcyonic
-  tags: ['html5up','blog','Middleman v4']
+  tags: ['html5up','blog','Middleman-v4']
+  supports_v4: true
+-
+  name: middleman-bootstrap-template
+  description: A Middleman 4 template with support for Bootstrap 4, Font Awesome, HTML Boilerplate, and more. A great foundation for your new blog.
+  links:
+    github: https://github.com/mattolson/middleman-bootstrap-template
+  tags:
+    - Blog
+    - Middleman-v4
+    - Bootstrap
+    - Bootstrap-v4
+    - Font-Awesome
+    - HTML5-Boilerplate
+    - Rails-Assets
+    - Disqus
+    - Analytics
+    - JQuery
+    - Mobile
+    - Modernizr
+    - Responsive
+    - Autoprefixer
+    - Sitemap
+  slug: bootstrap
   supports_v4: true
 -
   name: middleman-tailwindcss
