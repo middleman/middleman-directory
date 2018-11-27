@@ -938,7 +938,7 @@
   supported_api_versions:
     - v4
   tags:
-    - Generators
+    - Generator
     - Tooling
 -
   name: middleman-hotjar
