@@ -547,7 +547,7 @@
   links:
     github: https://github.com/jonaskay/middleman-tailwindcss
   tags: ['Tailwind CSS','Gulp']
-  supports_v4: true    
+  supports_v4: true
 -
   name: Strata
   description: Strata by HTML5 Up - for Middleman
@@ -562,3 +562,45 @@
     github: https://github.com/aroaminggeek/Start-Bootstrap-Resume-For-Middleman
   tags: ['Start Bootstrap','resume','cv',one page','Middleman v4','bootstrap']
   supports_v4: true
+-
+  name: Motion
+    description: A Middleman 4 template built around Bulma CSS, React and a custom Markdown renderer. Features a client-side search feature written in React, optimised assets on build, responsive image support and custom markdown shortcodes, for easier content creation.
+    links:
+      github: https://github.com/gsoftas/motion
+    tags:
+      - Middleman-v4
+      - Blog
+      - Bulma
+      - React
+      - Search
+      - Custom Markdown
+      - Webpack
+      - Gulp
+      - Analytics
+      - Responsive
+      - Mobile
+      - Responsive
+      - Autoprefixer
+      - Sitemap
+    supports_v4: true
+-
+  name: Motion
+    description: A Middleman 4 template built around Bulma CSS, React and a custom Markdown renderer. Features a client-side search feature written in React, optimised assets on build, responsive image support and custom markdown shortcodes, for easier content creation.
+    links:
+      github: https://github.com/gsoftas/motion
+    tags:
+      - Middleman-v4
+      - Blog
+      - Bulma
+      - React
+      - Search
+      - Custom Markdown
+      - Webpack
+      - Gulp
+      - Analytics
+      - Responsive
+      - Mobile
+      - Responsive
+      - Autoprefixer
+      - Sitemap
+    supports_v4: true
