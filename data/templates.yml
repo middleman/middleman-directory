@@ -567,5 +567,5 @@
   description: A modern template with an external pipeline
   links:
     github: https://github.com/oscarpalmer/anu
-  tags: ['modern','external pipeline','babel','purgecss']
+  tags: ['modern','external pipeline','gulp','babel','purgecss']
   supports_v4: true
