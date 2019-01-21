@@ -562,3 +562,10 @@
     github: https://github.com/aroaminggeek/Start-Bootstrap-Resume-For-Middleman
   tags: ['Start Bootstrap','resume','cv',one page','Middleman v4','bootstrap']
   supports_v4: true
+-
+  name: Anu
+  description: A modern template with an external pipeline
+  links:
+    github: https://github.com/oscarpalmer/anu
+  tags: ['modern','external pipeline','babel','purgecss']
+  supports_v4: true
