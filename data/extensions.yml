@@ -954,3 +954,13 @@
   tags:
     - Generator
     - Tooling
+-
+  name: nokogiri-scraper
+  description: Scrape web pages for data using Nokogiri
+  links:
+    github: https://github.com/sbalsom/middleman-nokogiri-scraper
+  tags:
+    - Scraping
+    - Nokogiri
+    - Parsing
+
