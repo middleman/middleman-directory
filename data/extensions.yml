@@ -954,3 +954,11 @@
   tags:
     - Generator
     - Tooling
+-
+  name: data_files
+  description: Interactive shell to manipulate Middleman Data Files with an API similar to ActiveRecord.
+  official: false
+  links:
+    github: https://github.com/pixelate/data_files
+  tags:
+    - Tooling
