@@ -962,3 +962,11 @@
     github: https://github.com/pixelate/data_files
   tags:
     - Tooling
+-
+  name: middleman-rss_items
+  description: Fetch RSS and add helpers to display articles in RSS.
+  official: false
+  links:
+    github: https://github.com/seibii/middleman-rss_items
+  tags:
+    - Generator
