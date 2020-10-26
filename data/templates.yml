@@ -562,3 +562,10 @@
     github: https://github.com/aroaminggeek/Start-Bootstrap-Resume-For-Middleman
   tags: ['Start Bootstrap','resume','cv',one page','Middleman v4','bootstrap']
   supports_v4: true
+-
+  name: Middleman UIkit Documentation
+  description: Template for documentation pages styled with UIkit for Middleman SSG. GitLab SSE ready.
+  links:
+    github: https://github.com/hajnyon/middleman-uikit-documentation-template
+  tags: ['UIkit','documentation','GitLab','SSE']
+  supports_v4: true
