@@ -569,3 +569,9 @@
     github: https://github.com/hajnyon/middleman-uikit-documentation-template
   tags: ['UIkit','documentation','GitLab','SSE']
   supports_v4: true
+-
+  name: Middleman Template with Turbo, Stimulus 3 and Tailwind CSS
+  description: Template with a Webpack external pipeline and ready to use Turbo, Stimulus 3 and Tailwind CSS.
+  links:
+    github: https://github.com/jbpfran/middleman-stimulus-tailwind
+  tags: ['Sass', 'Turbo', 'Stimulus', 'Tailwind CSS', 'Webpack', 'HAML']
