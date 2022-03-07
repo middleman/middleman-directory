@@ -970,3 +970,14 @@
     github: https://github.com/seibii/middleman-rss_items
   tags:
     - Generator
+
+-
+  name: middleman-importmap
+  description: Import Maps support to Middleman.
+  official: false
+  links:
+    github: https://github.com/dvinciguerra/middleman-importmap
+  tags:
+    - Tooling
+    - Assets
+    - Optimization
