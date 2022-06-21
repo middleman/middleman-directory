@@ -981,3 +981,13 @@
     - Tooling
     - Assets
     - Optimization
+
+-
+  name: middleman-tailwind
+  description: Tailwind CSS for your Middleman project
+  official: false
+  links:
+    github: https://github.com/johanhalse/middleman-tailwind
+  tags:
+    - Tooling
+    - Assets
